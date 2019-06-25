@@ -1,0 +1,59 @@
+#!genome-build R64-1-1
+#!genome-version R64-1-1
+#!genome-date 2011-09
+#!genome-build-accession GCA_000146045.2
+#!genebuild-last-updated 2018-07
+VII	sgd	gene	33109	35013	.	-	.	gene_id "RME3"; gene_source "sgd"; gene_biotype "ncRNA";
+VII	sgd	transcript	33109	35013	.	-	.	gene_id "RME3"; transcript_id "RME3_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VII	sgd	exon	33109	35013	.	-	.	gene_id "RME3"; transcript_id "RME3_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RME3_ncRNA-E1";
+VII	sgd	gene	141898	144120	.	-	.	gene_id "RME2"; gene_source "sgd"; gene_biotype "ncRNA";
+VII	sgd	transcript	141898	144120	.	-	.	gene_id "RME2"; transcript_id "RME2_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VII	sgd	exon	141898	144120	.	-	.	gene_id "RME2"; transcript_id "RME2_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RME2_ncRNA-E1";
+XIII	sgd	gene	91970	92027	.	+	.	gene_id "ZOD1"; gene_source "sgd"; gene_biotype "ncRNA";
+XIII	sgd	transcript	91970	92027	.	+	.	gene_id "ZOD1"; transcript_id "ZOD1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+XIII	sgd	exon	91970	92027	.	+	.	gene_id "ZOD1"; transcript_id "ZOD1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "ZOD1_ncRNA-E1";
+XIII	sgd	gene	667288	667456	.	-	.	gene_id "RNA170"; gene_name "RNA170"; gene_source "sgd"; gene_biotype "ncRNA";
+XIII	sgd	transcript	667288	667456	.	-	.	gene_id "RNA170"; transcript_id "RNA170_ncRNA"; gene_name "RNA170"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+XIII	sgd	exon	667288	667456	.	-	.	gene_id "RNA170"; transcript_id "RNA170_ncRNA"; exon_number "1"; gene_name "RNA170"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RNA170_ncRNA-E1";
+X	sgd	gene	605936	607424	.	-	.	gene_id "IRT1"; gene_source "sgd"; gene_biotype "ncRNA";
+X	sgd	transcript	605936	607424	.	-	.	gene_id "IRT1"; transcript_id "IRT1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+X	sgd	exon	605936	607424	.	-	.	gene_id "IRT1"; transcript_id "IRT1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "IRT1_ncRNA-E1";
+V	sgd	gene	117667	118035	.	-	.	gene_id "RPR1"; gene_source "sgd"; gene_biotype "ncRNA";
+V	sgd	transcript	117667	118035	.	-	.	gene_id "RPR1"; transcript_id "RPR1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+V	sgd	exon	117667	118035	.	-	.	gene_id "RPR1"; transcript_id "RPR1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RPR1_ncRNA-E1";
+V	sgd	gene	322212	322762	.	+	.	gene_id "SRG1"; gene_source "sgd"; gene_biotype "ncRNA";
+V	sgd	transcript	322212	322762	.	+	.	gene_id "SRG1"; transcript_id "SRG1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+V	sgd	exon	322212	322762	.	+	.	gene_id "SRG1"; transcript_id "SRG1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "SRG1_ncRNA-E1";
+V	sgd	gene	441987	442508	.	+	.	gene_id "SCR1"; gene_source "sgd"; gene_biotype "ncRNA";
+V	sgd	transcript	441987	442508	.	+	.	gene_id "SCR1"; transcript_id "SCR1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+V	sgd	exon	441987	442508	.	+	.	gene_id "SCR1"; transcript_id "SCR1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "SCR1_ncRNA-E1";
+VIII	sgd	gene	212409	213118	.	+	.	gene_id "RUF5-1"; gene_name "RUF5-1"; gene_source "sgd"; gene_biotype "ncRNA";
+VIII	sgd	transcript	212409	213118	.	+	.	gene_id "RUF5-1"; transcript_id "RUF5-1_ncRNA"; gene_name "RUF5-1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VIII	sgd	exon	212409	213118	.	+	.	gene_id "RUF5-1"; transcript_id "RUF5-1_ncRNA"; exon_number "1"; gene_name "RUF5-1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RUF5-1_ncRNA-E1";
+VIII	sgd	gene	214407	215116	.	+	.	gene_id "RUF5-2"; gene_name "RUF5-2"; gene_source "sgd"; gene_biotype "ncRNA";
+VIII	sgd	transcript	214407	215116	.	+	.	gene_id "RUF5-2"; transcript_id "RUF5-2_ncRNA"; gene_name "RUF5-2"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VIII	sgd	exon	214407	215116	.	+	.	gene_id "RUF5-2"; transcript_id "RUF5-2_ncRNA"; exon_number "1"; gene_name "RUF5-2"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RUF5-2_ncRNA-E1";
+IX	sgd	gene	393884	397082	.	-	.	gene_id "ICR1"; gene_source "sgd"; gene_biotype "ncRNA";
+IX	sgd	transcript	393884	397082	.	-	.	gene_id "ICR1"; transcript_id "ICR1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+IX	sgd	exon	393884	397082	.	-	.	gene_id "ICR1"; transcript_id "ICR1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "ICR1_ncRNA-E1";
+IX	sgd	gene	395999	396939	.	+	.	gene_id "PWR1"; gene_source "sgd"; gene_biotype "ncRNA";
+IX	sgd	transcript	395999	396939	.	+	.	gene_id "PWR1"; transcript_id "PWR1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+IX	sgd	exon	395999	396939	.	+	.	gene_id "PWR1"; transcript_id "PWR1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "PWR1_ncRNA-E1";
+VI	sgd	gene	57815	58521	.	-	.	gene_id "RUF21"; gene_source "sgd"; gene_biotype "ncRNA";
+VI	sgd	transcript	57815	58521	.	-	.	gene_id "RUF21"; transcript_id "RUF21_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VI	sgd	exon	57815	58521	.	-	.	gene_id "RUF21"; transcript_id "RUF21_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RUF21_ncRNA-E1";
+VI	sgd	gene	131061	131503	.	-	.	gene_id "RUF20"; gene_source "sgd"; gene_biotype "ncRNA";
+VI	sgd	transcript	131061	131503	.	-	.	gene_id "RUF20"; transcript_id "RUF20_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VI	sgd	exon	131061	131503	.	-	.	gene_id "RUF20"; transcript_id "RUF20_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RUF20_ncRNA-E1";
+VI	sgd	gene	199299	199813	.	-	.	gene_id "RUF22"; gene_source "sgd"; gene_biotype "ncRNA";
+VI	sgd	transcript	199299	199813	.	-	.	gene_id "RUF22"; transcript_id "RUF22_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VI	sgd	exon	199299	199813	.	-	.	gene_id "RUF22"; transcript_id "RUF22_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RUF22_ncRNA-E1";
+VI	sgd	gene	221714	221967	.	+	.	gene_id "RUF23"; gene_source "sgd"; gene_biotype "ncRNA";
+VI	sgd	transcript	221714	221967	.	+	.	gene_id "RUF23"; transcript_id "RUF23_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+VI	sgd	exon	221714	221967	.	+	.	gene_id "RUF23"; transcript_id "RUF23_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "RUF23_ncRNA-E1";
+I	sgd	gene	99305	99868	.	+	.	gene_id "HRA1"; gene_source "sgd"; gene_biotype "ncRNA";
+I	sgd	transcript	99305	99868	.	+	.	gene_id "HRA1"; transcript_id "HRA1_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+I	sgd	exon	99305	99868	.	+	.	gene_id "HRA1"; transcript_id "HRA1_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "HRA1_ncRNA-E1";
+Mito	sgd	gene	85295	85777	.	+	.	gene_id "Q0285"; gene_source "sgd"; gene_biotype "ncRNA";
+Mito	sgd	transcript	85295	85777	.	+	.	gene_id "Q0285"; transcript_id "Q0285_ncRNA"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA";
+Mito	sgd	exon	85295	85777	.	+	.	gene_id "Q0285"; transcript_id "Q0285_ncRNA"; exon_number "1"; gene_source "sgd"; gene_biotype "ncRNA"; transcript_source "sgd"; transcript_biotype "ncRNA"; exon_id "Q0285_ncRNA-E1";

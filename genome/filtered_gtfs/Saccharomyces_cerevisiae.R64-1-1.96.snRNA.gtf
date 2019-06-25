@@ -1,0 +1,23 @@
+#!genome-build R64-1-1
+#!genome-version R64-1-1
+#!genome-date 2011-09
+#!genome-build-accession GCA_000146045.2
+#!genebuild-last-updated 2018-07
+VII	sgd	gene	939459	939672	.	-	.	gene_id "snR7-L"; gene_name "SNR7-L"; gene_source "sgd"; gene_biotype "snRNA";
+VII	sgd	transcript	939459	939672	.	-	.	gene_id "snR7-L"; transcript_id "snR7-L_snRNA"; gene_name "SNR7-L"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA";
+VII	sgd	exon	939459	939672	.	-	.	gene_id "snR7-L"; transcript_id "snR7-L_snRNA"; exon_number "1"; gene_name "SNR7-L"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA"; exon_id "snR7-L_snRNA-E1";
+VII	sgd	gene	939494	939672	.	-	.	gene_id "snR7-S"; gene_name "SNR7-S"; gene_source "sgd"; gene_biotype "snRNA";
+VII	sgd	transcript	939494	939672	.	-	.	gene_id "snR7-S"; transcript_id "snR7-S_snRNA"; gene_name "SNR7-S"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA";
+VII	sgd	exon	939494	939672	.	-	.	gene_id "snR7-S"; transcript_id "snR7-S_snRNA"; exon_number "1"; gene_name "SNR7-S"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA"; exon_id "snR7-S_snRNA-E1";
+XII	sgd	gene	366235	366346	.	+	.	gene_id "snR6"; gene_name "SNR6"; gene_source "sgd"; gene_biotype "snRNA";
+XII	sgd	transcript	366235	366346	.	+	.	gene_id "snR6"; transcript_id "snR6_snRNA"; gene_name "SNR6"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA";
+XII	sgd	exon	366235	366346	.	+	.	gene_id "snR6"; transcript_id "snR6_snRNA"; exon_number "1"; gene_name "SNR6"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA"; exon_id "snR6_snRNA-E1";
+II	sgd	gene	680688	681862	.	-	.	gene_id "LSR1"; gene_name "LSR1"; gene_source "sgd"; gene_biotype "snRNA";
+II	sgd	transcript	680688	681862	.	-	.	gene_id "LSR1"; transcript_id "LSR1_snRNA"; gene_name "LSR1"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA";
+II	sgd	exon	680688	681862	.	-	.	gene_id "LSR1"; transcript_id "LSR1_snRNA"; exon_number "1"; gene_name "LSR1"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA"; exon_id "LSR1_snRNA-E1";
+XIV	sgd	gene	230105	230672	.	-	.	gene_id "snR19"; gene_name "SNR19"; gene_source "sgd"; gene_biotype "snRNA";
+XIV	sgd	transcript	230105	230672	.	-	.	gene_id "snR19"; transcript_id "snR19_snRNA"; gene_name "SNR19"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA";
+XIV	sgd	exon	230105	230672	.	-	.	gene_id "snR19"; transcript_id "snR19_snRNA"; exon_number "1"; gene_name "SNR19"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA"; exon_id "snR19_snRNA-E1";
+V	sgd	gene	167427	167586	.	-	.	gene_id "snR14"; gene_name "SNR14"; gene_source "sgd"; gene_biotype "snRNA";
+V	sgd	transcript	167427	167586	.	-	.	gene_id "snR14"; transcript_id "snR14_snRNA"; gene_name "SNR14"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA";
+V	sgd	exon	167427	167586	.	-	.	gene_id "snR14"; transcript_id "snR14_snRNA"; exon_number "1"; gene_name "SNR14"; gene_source "sgd"; gene_biotype "snRNA"; transcript_source "sgd"; transcript_biotype "snRNA"; exon_id "snR14_snRNA-E1";

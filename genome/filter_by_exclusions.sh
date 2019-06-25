@@ -10,4 +10,6 @@ REGEXP=$(echo ${EXCLUSIONS[@]} | tr " " "|")
 
 ## filter GTF using regexp
 
-grep -vE "$REGEXP" Saccharomyces_cerevisiae.R64-1-1.96.gtf > Saccharomyces_cerevisiae.R64-1-1.96.Filtered.gtf
+mkdir -p ./filtered_gtfs
+
+grep -vE "$REGEXP" Saccharomyces_cerevisiae.R64-1-1.96.gtf > ./filtered_gtfs/Saccharomyces_cerevisiae.R64-1-1.96.Filtered.gtf

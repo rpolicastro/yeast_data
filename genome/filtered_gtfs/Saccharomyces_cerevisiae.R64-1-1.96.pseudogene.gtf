@@ -1,0 +1,41 @@
+#!genome-build R64-1-1
+#!genome-version R64-1-1
+#!genome-date 2011-09
+#!genome-build-accession GCA_000146045.2
+#!genebuild-last-updated 2018-07
+XII	sgd	gene	112234	112545	.	+	.	gene_id "YLL017W"; gene_name "YLL017W"; gene_source "sgd"; gene_biotype "pseudogene";
+XII	sgd	transcript	112234	112545	.	+	.	gene_id "YLL017W"; transcript_id "YLL017W"; gene_name "YLL017W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+XII	sgd	exon	112234	112545	.	+	.	gene_id "YLL017W"; transcript_id "YLL017W"; exon_number "1"; gene_name "YLL017W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YLL017W-E1";
+XII	sgd	gene	112847	115993	.	+	.	gene_id "YLL016W"; gene_source "sgd"; gene_biotype "pseudogene";
+XII	sgd	transcript	112847	115993	.	+	.	gene_id "YLL016W"; transcript_id "YLL016W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+XII	sgd	exon	112847	115993	.	+	.	gene_id "YLL016W"; transcript_id "YLL016W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YLL016W-E1";
+XVI	sgd	gene	17948	18385	.	+	.	gene_id "YPL276W"; gene_name "YPL276W"; gene_source "sgd"; gene_biotype "pseudogene";
+XVI	sgd	transcript	17948	18385	.	+	.	gene_id "YPL276W"; transcript_id "YPL276W"; gene_name "YPL276W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+XVI	sgd	exon	17948	18385	.	+	.	gene_id "YPL276W"; transcript_id "YPL276W"; exon_number "1"; gene_name "YPL276W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YPL276W-E1";
+XVI	sgd	gene	18369	19079	.	+	.	gene_id "YPL275W"; gene_source "sgd"; gene_biotype "pseudogene";
+XVI	sgd	transcript	18369	19079	.	+	.	gene_id "YPL275W"; transcript_id "YPL275W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+XVI	sgd	exon	18369	19079	.	+	.	gene_id "YPL275W"; transcript_id "YPL275W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YPL275W-E1";
+IX	sgd	gene	9183	9500	.	+	.	gene_id "YIL175W"; gene_source "sgd"; gene_biotype "pseudogene";
+IX	sgd	transcript	9183	9500	.	+	.	gene_id "YIL175W"; transcript_id "YIL175W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+IX	sgd	exon	9183	9500	.	+	.	gene_id "YIL175W"; transcript_id "YIL175W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YIL175W-E1";
+IX	sgd	gene	9469	9696	.	+	.	gene_id "YIL174W"; gene_source "sgd"; gene_biotype "pseudogene";
+IX	sgd	transcript	9469	9696	.	+	.	gene_id "YIL174W"; transcript_id "YIL174W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+IX	sgd	exon	9469	9696	.	+	.	gene_id "YIL174W"; transcript_id "YIL174W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YIL174W-E1";
+IX	sgd	gene	19515	19844	.	+	.	gene_id "YIL171W"; gene_name "YIL171W"; gene_source "sgd"; gene_biotype "pseudogene";
+IX	sgd	transcript	19515	19844	.	+	.	gene_id "YIL171W"; transcript_id "YIL171W"; gene_name "YIL171W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+IX	sgd	exon	19515	19844	.	+	.	gene_id "YIL171W"; transcript_id "YIL171W"; exon_number "1"; gene_name "YIL171W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YIL171W-E1";
+IX	sgd	gene	19847	21220	.	+	.	gene_id "YIL170W"; gene_source "sgd"; gene_biotype "pseudogene";
+IX	sgd	transcript	19847	21220	.	+	.	gene_id "YIL170W"; transcript_id "YIL170W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+IX	sgd	exon	19847	21220	.	+	.	gene_id "YIL170W"; transcript_id "YIL170W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YIL170W-E1";
+III	sgd	gene	2126	2566	.	+	.	gene_id "YCL075W"; gene_source "sgd"; gene_biotype "pseudogene";
+III	sgd	transcript	2126	2566	.	+	.	gene_id "YCL075W"; transcript_id "YCL075W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+III	sgd	exon	2126	2566	.	+	.	gene_id "YCL075W"; transcript_id "YCL075W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YCL075W-E1";
+III	sgd	gene	2824	3750	.	+	.	gene_id "YCL074W"; gene_source "sgd"; gene_biotype "pseudogene";
+III	sgd	transcript	2824	3750	.	+	.	gene_id "YCL074W"; transcript_id "YCL074W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+III	sgd	exon	2824	3750	.	+	.	gene_id "YCL074W"; transcript_id "YCL074W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YCL074W-E1";
+VI	sgd	gene	14305	15431	.	-	.	gene_id "YFL056C"; gene_source "sgd"; gene_biotype "pseudogene";
+VI	sgd	transcript	14305	15431	.	-	.	gene_id "YFL056C"; transcript_id "YFL056C"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+VI	sgd	exon	14305	15431	.	-	.	gene_id "YFL056C"; transcript_id "YFL056C"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YFL056C-E1";
+I	sgd	gene	218140	219145	.	+	.	gene_id "YAR061W"; gene_source "sgd"; gene_biotype "pseudogene";
+I	sgd	transcript	218140	219145	.	+	.	gene_id "YAR061W"; transcript_id "YAR061W"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene";
+I	sgd	exon	218140	219145	.	+	.	gene_id "YAR061W"; transcript_id "YAR061W"; exon_number "1"; gene_source "sgd"; gene_biotype "pseudogene"; transcript_source "sgd"; transcript_biotype "pseudogene"; exon_id "YAR061W-E1";
