@@ -12,4 +12,4 @@ REGEXP=$(echo ${EXCLUSIONS[@]} | tr " " "|")
 
 mkdir -p ./filtered_gtfs
 
-grep -vE "$REGEXP" Saccharomyces_cerevisiae.R64-1-1.96.gtf > ./filtered_gtfs/Saccharomyces_cerevisiae.R64-1-1.96.Filtered.gtf
+grep -vE "$REGEXP" ../Saccharomyces_cerevisiae.R64-1-1.96.gtf > ../filtered_gtfs/Saccharomyces_cerevisiae.R64-1-1.96.Filtered.gtf

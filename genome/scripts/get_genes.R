@@ -17,6 +17,6 @@ gtf.genes <- makeTxDbFromGFF(
 	as_tibble
 
 write.table(
-	gtf.genes, "gtf_genes.tsv",
+	gtf.genes, "../gtf_genes.tsv",
 	sep="\t", col.names=F, row.names=F, quote=F
 )
