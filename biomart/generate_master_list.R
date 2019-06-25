@@ -10,13 +10,25 @@ library("tidyverse")
 
 biomart <- read.delim("./reference_files/biomart_features.tsv", sep="\t", header=T, stringsAsFactors=F) %>% as_tibble
 
-## Add genes without biomart annotation
+## Biomart sometimes excludes genes if certain cateories are select
+## Find excluded genes and try to get as many categories as possible before they drop out
 
+# find excluded genes
 no.biomart <- read.delim("../genome/gtf_genes.tsv", sep="\t", header=F, stringsAsFactors=F) %>%
 	dplyr::rename("Gene.stable.ID"=1) %>%
 	filter(!(Gene.stable.ID %in% (biomart %>% pull(Gene.stable.ID) %>% unique)))
 
-biomart <- bind_rows(biomart, no.biomart) %>% arrange(Gene.stable.ID)
+# write excluded genes to file
+write.table(
+	no.biomart, "./results/no_biomart_features.tsv",
+	sep="\t", col.names=F, row.names=F, quote=F, na=""
+)
+
+# load up biomart results of genes that were initially excluded
+biomart.redo <- read.delim("./reference_files/biomart_features_unknown.tsv", sep="\t", header=T, stringsAsFactors=F) %>% as_tibble
+
+# add them back to main biomart list
+biomart <- bind_rows(biomart, biomart.redo) %>% arrange(Gene.stable.ID)
 
 ## Clean annotations
 
@@ -72,7 +84,7 @@ biomart <- left_join(biomart, human.orthologs, by="YGD_ID")
 
 excluded <- biomart %>%
 	filter(
-		gene_type == "" |
+		gene_type %in% c("tRNA", "rRNA", "pseudogene") |
 		is.na(gene_type) |
 		chr == "Mito" |
 		grepl(gene_description, pattern="Dubious open reading frame")
