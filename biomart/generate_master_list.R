@@ -8,7 +8,7 @@ library("tidyverse")
 
 ## Import biomart results
 
-biomart <- read.delim("biomart_features.tsv", sep="\t", header=T, stringsAsFactors=F) %>% as_tibble
+biomart <- read.delim("./reference_files/biomart_features.tsv", sep="\t", header=T, stringsAsFactors=F) %>% as_tibble
 
 ## Add genes without biomart annotation
 
@@ -51,7 +51,7 @@ biomart <- biomart %>%
 
 ## Add human orthologs
 
-human.orthologs <- read.delim("human_orthologs.tsv", sep="\t", header=T, stringsAsFactors=F) %>%
+human.orthologs <- read.delim("./reference_files/human_orthologs.tsv", sep="\t", header=T, stringsAsFactors=F) %>%
 	as_tibble %>%
 	dplyr::rename(
 		"YGD_ID"=Gene.stable.ID,
