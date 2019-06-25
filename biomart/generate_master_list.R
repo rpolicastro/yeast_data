@@ -50,3 +50,54 @@ biomart <- biomart %>%
 	))
 
 ## Add human orthologs
+
+human.orthologs <- read.delim("human_orthologs.tsv", sep="\t", header=T, stringsAsFactors=F) %>%
+	as_tibble %>%
+	dplyr::rename(
+		"YGD_ID"=Gene.stable.ID,
+		"human_gene_ID"=Human.gene.stable.ID,
+		"human_gene_name"=Human.gene.name,
+		"yeast_gene_similarity"=X.id..query.gene.identical.to.target.Human.gene,
+		"ortholog_confidence"=Human.orthology.confidence..0.low..1.high.
+	) %>%
+	filter(ortholog_confidence == 1) %>%
+	dplyr::select(-ortholog_confidence) %>%
+	group_by(YGD_ID) %>%
+	summarize_all(~ paste0(., collapse=";")) %>%
+	replace(., .=="NA", "")
+
+biomart <- left_join(biomart, human.orthologs, by="YGD_ID")
+
+## Get list of excluded genes
+
+excluded <- biomart %>%
+	filter(
+		gene_type == "" |
+		is.na(gene_type) |
+		chr == "Mito" |
+		grepl(gene_description, pattern="Dubious open reading frame")
+	)
+
+write.table(
+	excluded, "genes_to_exclude.tsv",
+	sep="\t", col.names=T, row.names=F, quote=F, na=""
+)
+
+## export master list
+
+# reorder columns
+biomart <- biomart %>%
+	dplyr::select(
+		YGD_ID, gene_name, NCBI_ID,
+		chr, start, end, strand,
+		gene_type, gene_description,
+		human_gene_ID, human_gene_name, yeast_gene_similarity,
+		interpro_ID, interpro_description,
+		GO_slim_ID, GO_slim_description
+	)
+
+# write to file
+write.table(
+	biomart, "gene_master_list.tsv",
+	sep="\t", col.names=T, row.names=F, quote=F, na=""
+)
