@@ -1,1254 +1,1525 @@
-YGD_ID	gene_name	NCBI_ID	chr	start	end	strand	gene_type	interpro_ID	interpro_description	GO_slim_ID	GO_slim_description	gene_description	human_gene_ID	human_gene_name	yeast_gene_similarity	ortholog_confidence
-ETS1-1															NA	NA
-ETS1-2															NA	NA
-ETS2-1															NA	NA
-ETS2-2															NA	NA
-HRA1															NA	NA
-ICR1															NA	NA
-IRT1															NA	NA
-ITS1-1															NA	NA
-ITS1-2															NA	NA
-ITS2-1															NA	NA
-ITS2-2															NA	NA
-LSR1															NA	NA
-NME1															NA	NA
-PWR1															NA	NA
-Q0010	Q0010		Mito	3952	4338	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a protein, based on available experimental and comparative sequence data; partially overlaps the dubious ORF Q0017 [Source:SGD;Acc:S000007257]			NA	NA
-Q0017	Q0017		Mito	4254	4415	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a protein, based on available experimental and comparative sequence data; partially overlaps the dubious ORF Q0010 [Source:SGD;Acc:S000007258]			NA	NA
-Q0020															NA	NA
-Q0032	Q0032		Mito	11667	11957	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007259]			NA	NA
-Q0045	COX1	854598	Mito	13818	26701	+	protein_coding	IPR000883;IPR023615;IPR023616;IPR033944;IPR036927	Cytochrome c oxidase subunit I;Cytochrome c oxidase, subunit I, copper-binding site;Cytochrome c oxidase-like, subunit I domain;Cytochrome c oxidase subunit I domain;Cytochrome c oxidase-like, subunit I  superfamily	GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085	generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport	Subunit I of cytochrome c oxidase (Complex IV); Complex IV is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Source:SGD;Acc:S000007260]	ENSG00000198804	MT-CO1	51.6569	1
-Q0050		854593	Mito	13818	16322	+	protein_coding	IPR000477;IPR003615;IPR024937;IPR036927	Reverse transcriptase domain;HNH nuclease;Domain X;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0006397;GO:0006310;GO:0016740;GO:0016779	mitochondrion;mRNA processing;DNA recombination;transferase activity;nucleotidyltransferase activity	Reverse transcriptase required for splicing of the COX1 pre-mRNA; encoded by a mobile group II intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007261]			NA	NA
-Q0055		854594	Mito	13818	18830	+	protein_coding	IPR000477;IPR000883;IPR003615;IPR023616;IPR024937;IPR036927	Reverse transcriptase domain;Cytochrome c oxidase subunit I;HNH nuclease;Cytochrome c oxidase-like, subunit I domain;Domain X;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0006397;GO:0006091;GO:0045333;GO:0016491;GO:0022857;GO:0043167;GO:0006310;GO:0016740;GO:0016779	mitochondrion;mRNA processing;generation of precursor metabolites and energy;cellular respiration;oxidoreductase activity;transmembrane transporter activity;ion binding;DNA recombination;transferase activity;nucleotidyltransferase activity	Reverse transcriptase required for splicing of the COX1 pre-mRNA; encoded by a mobile group II intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007262]			NA	NA
-Q0060	AI3	854595	Mito	13818	19996	+	protein_coding	IPR000883;IPR004860;IPR023616;IPR027434;IPR036927	Cytochrome c oxidase subunit I;Homing endonuclease, LAGLIDADG;Cytochrome c oxidase-like, subunit I domain;Homing endonuclease;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085;GO:0006310;GO:0008380	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport;DNA recombination;RNA splicing	Endonuclease I-SceIII; encoded by a mobile group I intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007263]			NA	NA
-Q0065	AI4	854596	Mito	13818	21935	+	protein_coding	IPR000883;IPR004860;IPR023616;IPR027434;IPR036927	Cytochrome c oxidase subunit I;Homing endonuclease, LAGLIDADG;Cytochrome c oxidase-like, subunit I domain;Homing endonuclease;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085;GO:0006310;GO:0008380	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport;DNA recombination;RNA splicing	Endonuclease I-SceII; encoded by a mobile group I intron within the mitochondrial COX1 gene; intron is normally spliced by the BI4p maturase but AI4p can mutate to acquire the same maturase activity [Source:SGD;Acc:S000007264]	ENSG00000198804	MT-CO1	34.308	1
-Q0070		854597	Mito	13818	23167	+	protein_coding	IPR000883;IPR004860;IPR023615;IPR023616;IPR027434;IPR036927	Cytochrome c oxidase subunit I;Homing endonuclease, LAGLIDADG;Cytochrome c oxidase, subunit I, copper-binding site;Cytochrome c oxidase-like, subunit I domain;Homing endonuclease;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085;GO:0008380;GO:0006310	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport;RNA splicing;DNA recombination	Endonuclease I-SceIV; involved in intron mobility; encoded by a mobile group I intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007265]	ENSG00000198804	MT-CO1	45.0292	1
-Q0075		854599	Mito	24156	25255	+	protein_coding	IPR004860;IPR027434	Homing endonuclease, LAGLIDADG;Homing endonuclease	GO:0005739;GO:0003723;GO:0003677;GO:0016787;GO:0004518;GO:0008380;GO:0006310	mitochondrion;RNA binding;DNA binding;hydrolase activity;nuclease activity;RNA splicing;DNA recombination	Protein of unknown function; encoded within an intron of the mitochondrial COX1 gene; translational initiation codon is predicted to be ATA rather than ATG [Source:SGD;Acc:S000007266]			NA	NA
-Q0080	ATP8	854600;24573117	Mito	27666	27812	+	protein_coding	IPR009230	ATP synthase protein 8, fungi	GO:0006811;GO:0055086;GO:0055085;GO:0022857	ion transport;nucleobase-containing small molecule metabolic process;transmembrane transport;transmembrane transporter activity	Subunit 8 of the F0 sector of mitochondrial F1F0 ATP synthase; encoded on the mitochondrial genome; ATP8 and ATP6 mRNAs are not translated in the absence of the F1 sector of ATPase [Source:SGD;Acc:S000007267]			NA	NA
-Q0085	ATP6	854601	Mito	28487	29266	+	protein_coding	IPR000568;IPR023011;IPR035908	ATP synthase, F0 complex, subunit A;ATP synthase, F0 complex, subunit A, active site;ATP synthase, F0 complex, subunit A superfamily	GO:0006811;GO:0055086;GO:0055085;GO:0022857	ion transport;nucleobase-containing small molecule metabolic process;transmembrane transport;transmembrane transporter activity	Subunit a of the F0 sector of mitochondrial F1F0 ATP synthase; mitochondrially encoded; translation is specifically activated by Atp22p; ATP6 and ATP8 mRNAs are not translated in the absence of the F1 sector of ATPase; mutations in human ortholog MT-ATP6 are associated with neurodegenerative disorders such as Neurogenic Ataxia and Retinitis Pigmentosa (NARP), Leigh syndrome (LS), Charcot-Marie-Tooth (CMT), and ataxia telangiectasia [Source:SGD;Acc:S000007268]	ENSG00000198899	MT-ATP6	30.9735	1
-Q0092	Q0092		Mito	30874	31014	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007269]			NA	NA
-Q0105	COB	854583	Mito	36540	43647	+	protein_coding	IPR005797;IPR005798;IPR016174;IPR027387;IPR030689;IPR036150	Cytochrome b/b6, N-terminal;Cytochrome b/b6, C-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Cytochrome b;Cytochrome b/b6, C-terminal domain superfamily	GO:0043167;GO:0016020;GO:0016491;GO:0006091;GO:0045333;GO:0055086	ion binding;membrane;oxidoreductase activity;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process	Cytochrome b; mitochondrially encoded subunit of the ubiquinol-cytochrome c reductase complex which includes Cobp, Rip1p, Cyt1p, Cor1p, Qcr2p, Qcr6p, Qcr7p, Qcr8p, Qcr9p, and Qcr10p [Source:SGD;Acc:S000007270]	ENSG00000198727	MT-CYB	46.3158	1
-Q0110		854604	Mito	36540	38579	+	protein_coding	IPR004860;IPR005797;IPR016174;IPR027387;IPR027434	Homing endonuclease, LAGLIDADG;Cytochrome b/b6, N-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Homing endonuclease	GO:0005739;GO:0016020;GO:0016491;GO:0016787;GO:0004518;GO:0006397;GO:0008380;GO:0006091	mitochondrion;membrane;oxidoreductase activity;hydrolase activity;nuclease activity;mRNA processing;RNA splicing;generation of precursor metabolites and energy	Mitochondrial mRNA maturase with a role in splicing; encoded by both exon and intron sequences of partially processed COB mRNA [Source:SGD;Acc:S000007271]	ENSG00000198727	MT-CYB	25.5263	0
-Q0115		854605	Mito	36540	40265	+	protein_coding	IPR004860;IPR005797;IPR016174;IPR027387;IPR027434	Homing endonuclease, LAGLIDADG;Cytochrome b/b6, N-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Homing endonuclease	GO:0005739;GO:0016020;GO:0003723;GO:0016491;GO:0016787;GO:0004518;GO:0006397;GO:0008380;GO:0006091	mitochondrion;membrane;RNA binding;oxidoreductase activity;hydrolase activity;nuclease activity;mRNA processing;RNA splicing;generation of precursor metabolites and energy	Mitochondrial mRNA maturase; forms a complex with Mrs1p to mediate splicing of the bI3 intron of the COB gene; encoded by both exon and intron sequences of partially processed COB mRNA [Source:SGD;Acc:S000007272]	ENSG00000198727	MT-CYB	28.9474	0
-Q0120		854582	Mito	36540	42251	+	protein_coding	IPR004860;IPR005797;IPR016174;IPR027387;IPR027434	Homing endonuclease, LAGLIDADG;Cytochrome b/b6, N-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Homing endonuclease	GO:0005739;GO:0016020;GO:0003723;GO:0016491;GO:0016787;GO:0004518;GO:0006397;GO:0008380;GO:0006091	mitochondrion;membrane;RNA binding;oxidoreductase activity;hydrolase activity;nuclease activity;mRNA processing;RNA splicing;generation of precursor metabolites and energy	Mitochondrial mRNA maturase; forms a complex with Nam2p to mediate splicing of the bI4 intron of the COB gene; encoded by both exon and intron sequences of partially processed COB mRNA [Source:SGD;Acc:S000007273]	ENSG00000198727	MT-CYB	41.5789	0
-Q0130	OLI1	854584;24573116	Mito	46723	46953	+	protein_coding	IPR000454;IPR002379;IPR020537;IPR035921;IPR038662	ATP synthase, F0 complex, subunit C;V-ATPase proteolipid subunit C-like domain;ATP synthase, F0 complex, subunit C, DCCD-binding site;F/V-ATP synthase subunit C superfamily;F1F0 ATP synthase subunit C superfamily	GO:0005740;GO:0006811;GO:0055086;GO:0055085;GO:0022857;GO:0008289	mitochondrial envelope;ion transport;nucleobase-containing small molecule metabolic process;transmembrane transport;transmembrane transporter activity;lipid binding	F0-ATP synthase subunit c (ATPase-associated proteolipid); encoded on the mitochondrial genome; mutation confers oligomycin resistance; expression is specifically dependent on the nuclear genes AEP1 and AEP2 [Source:SGD;Acc:S000007274]			NA	NA
-Q0140	VAR1	854586	Mito	48901	50097	+	protein_coding	IPR007980	Ribosomal protein VAR1	GO:0005840;GO:0005198;GO:0003735;GO:0032543	ribosome;structural molecule activity;structural constituent of ribosome;mitochondrial translation	Mitochondrial ribosomal protein of the small subunit; mitochondrially-encoded; polymorphic in different strains due to variation in number of AAT (asparagine) codons; translated near the mitochondrial inner membrane; may have a role in loss of mitochondrial DNA under stress conditions [Source:SGD;Acc:S000007275]			NA	NA
-Q0142	Q0142		Mito	51052	51228	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps dubious open reading frame Q0143 [Source:SGD;Acc:S000007276]			NA	NA
-Q0143	Q0143		Mito	51277	51429	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007277]			NA	NA
-Q0144			Mito	54109	54438	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007278]			NA	NA
-Q0158															NA	NA
-Q0160	SCEI	854590	Mito	61022	61729	+	protein_coding	IPR004860;IPR027434	Homing endonuclease, LAGLIDADG;Homing endonuclease	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006310;GO:0008380	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;DNA recombination;RNA splicing	I-SceI DNA endonuclease; encoded by the mitochondrial group I intron of the 21S_rRNA gene; mediates gene conversion that propagates the intron into intron-less copies of the 21S_rRNA gene [Source:SGD;Acc:S000007279]			NA	NA
-Q0182	Q0182		Mito	65770	66174	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007280]			NA	NA
-Q0250	COX2	854622	Mito	73758	74513	+	protein_coding	IPR001505;IPR002429;IPR008972;IPR011759;IPR014222;IPR034210;IPR036257	Copper centre Cu(A);Cytochrome c oxidase subunit II-like C-terminal;Cupredoxin;Cytochrome C oxidase subunit II, transmembrane domain;Cytochrome c oxidase, subunit II;Cytochrome c oxidase subunit 2, C-terminal;Cytochrome C oxidase subunit II, transmembrane domain superfamily	GO:0043167;GO:0016020;GO:0016491;GO:0006091;GO:0045333;GO:0055086;GO:0022857	ion binding;membrane;oxidoreductase activity;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;transmembrane transporter activity	Subunit II of cytochrome c oxidase (Complex IV); Complex IV is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Source:SGD;Acc:S000007281]	ENSG00000198712	MT-CO2	41.8502	1
-Q0255	Q0255	854623	Mito	74495	75984	+	protein_coding	IPR003647;IPR004860;IPR010896;IPR027434	Intron encoded nuclease repeat;Homing endonuclease, LAGLIDADG;Nuclease-associated modular DNA-binding 1;Homing endonuclease	GO:0005739;GO:0003723;GO:0003677;GO:0016787;GO:0004518;GO:0008380	mitochondrion;RNA binding;DNA binding;hydrolase activity;nuclease activity;RNA splicing	Maturase-like protein [Source:SGD;Acc:S000007282]			NA	NA
-Q0275	COX3	24573142;854627	Mito	79213	80022	+	protein_coding	IPR000298;IPR013833;IPR024791;IPR033945;IPR035973	Cytochrome c oxidase subunit III-like;Cytochrome c oxidase, subunit III, 4-helical bundle;Cytochrome c oxidase subunit III;Cytochrome c oxidase subunit III domain;Cytochrome c oxidase subunit III-like superfamily	GO:0005739;GO:0016020;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857	mitochondrion;membrane;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity	Subunit III of cytochrome c oxidase (Complex IV); Complex IV is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Source:SGD;Acc:S000007283]	ENSG00000198938	MT-CO3	45.2107	1
-Q0285															NA	NA
-Q0297	Q0297		Mito	85554	85709	+	protein_coding			GO:0005739	mitochondrion	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene RPM1 [Source:SGD;Acc:S000007284]			NA	NA
-RDN18-1															NA	NA
-RDN18-2															NA	NA
-RDN25-1															NA	NA
-RDN25-2															NA	NA
-RDN37-1															NA	NA
-RDN37-2															NA	NA
-RDN5-1															NA	NA
-RDN5-2															NA	NA
-RDN5-3															NA	NA
-RDN5-4															NA	NA
-RDN5-5															NA	NA
-RDN5-6															NA	NA
-RDN58-1															NA	NA
-RDN58-2															NA	NA
-RME2															NA	NA
-RME3															NA	NA
-RNA170															NA	NA
-RPR1															NA	NA
-RUF20															NA	NA
-RUF21															NA	NA
-RUF22															NA	NA
-RUF23															NA	NA
-RUF5-1															NA	NA
-RUF5-2															NA	NA
-SCR1															NA	NA
-snR10															NA	NA
-snR11															NA	NA
-snR128															NA	NA
-snR13															NA	NA
-snR14															NA	NA
-snR161															NA	NA
-snR17a															NA	NA
-snR17b															NA	NA
-snR18															NA	NA
-snR189															NA	NA
-snR19															NA	NA
-snR190															NA	NA
-snR191															NA	NA
-snR24															NA	NA
-snR3															NA	NA
-snR30															NA	NA
-snR31															NA	NA
-snR32															NA	NA
-snR33															NA	NA
-snR34															NA	NA
-snR35															NA	NA
-snR36															NA	NA
-snR37															NA	NA
-snR38															NA	NA
-snR39															NA	NA
-snR39B															NA	NA
-snR4															NA	NA
-snR40															NA	NA
-snR41															NA	NA
-snR42															NA	NA
-snR43															NA	NA
-snR44															NA	NA
-snR45															NA	NA
-snR46															NA	NA
-snR47															NA	NA
-snR48															NA	NA
-snR49															NA	NA
-snR5															NA	NA
-snR50															NA	NA
-snR51															NA	NA
-snR52															NA	NA
-snR53															NA	NA
-snR54															NA	NA
-snR55															NA	NA
-snR56															NA	NA
-snR57															NA	NA
-snR58															NA	NA
-snR59															NA	NA
-snR6															NA	NA
-snR60															NA	NA
-snR61															NA	NA
-snR62															NA	NA
-snR63															NA	NA
-snR64															NA	NA
-snR65															NA	NA
-snR66															NA	NA
-snR67															NA	NA
-snR68															NA	NA
-snR69															NA	NA
-snR7-L															NA	NA
-snR7-S															NA	NA
-snR70															NA	NA
-snR71															NA	NA
-snR72															NA	NA
-snR73															NA	NA
-snR74															NA	NA
-snR75															NA	NA
-snR76															NA	NA
-snR77															NA	NA
-snR78															NA	NA
-snR79															NA	NA
-snR8															NA	NA
-snR80															NA	NA
-snR81															NA	NA
-snR82															NA	NA
-snR83															NA	NA
-snR84															NA	NA
-snR85															NA	NA
-snR86															NA	NA
-snR87															NA	NA
-snR9															NA	NA
-SRG1															NA	NA
-tA(AGC)D															NA	NA
-tA(AGC)F															NA	NA
-tA(AGC)G															NA	NA
-tA(AGC)H															NA	NA
-tA(AGC)J															NA	NA
-tA(AGC)K1															NA	NA
-tA(AGC)K2															NA	NA
-tA(AGC)L															NA	NA
-tA(AGC)M1															NA	NA
-tA(AGC)M2															NA	NA
-tA(AGC)P															NA	NA
-tA(UGC)A															NA	NA
-tA(UGC)E															NA	NA
-tA(UGC)G															NA	NA
-tA(UGC)L															NA	NA
-tA(UGC)O															NA	NA
-tA(UGC)Q															NA	NA
-tC(GCA)B															NA	NA
-tC(GCA)G															NA	NA
-tC(GCA)P1															NA	NA
-tC(GCA)P2															NA	NA
-tC(GCA)Q															NA	NA
-tD(GUC)B															NA	NA
-tD(GUC)D															NA	NA
-tD(GUC)G1															NA	NA
-tD(GUC)G2															NA	NA
-tD(GUC)I1															NA	NA
-tD(GUC)I2															NA	NA
-tD(GUC)J1															NA	NA
-tD(GUC)J2															NA	NA
-tD(GUC)J3															NA	NA
-tD(GUC)J4															NA	NA
-tD(GUC)K															NA	NA
-tD(GUC)L1															NA	NA
-tD(GUC)L2															NA	NA
-tD(GUC)M															NA	NA
-tD(GUC)N															NA	NA
-tD(GUC)O															NA	NA
-tD(GUC)Q															NA	NA
-tE(CUC)D															NA	NA
-tE(CUC)I															NA	NA
-tE(UUC)B															NA	NA
-tE(UUC)C															NA	NA
-tE(UUC)E1															NA	NA
-tE(UUC)E2															NA	NA
-tE(UUC)E3															NA	NA
-tE(UUC)G1															NA	NA
-tE(UUC)G2															NA	NA
-tE(UUC)G3															NA	NA
-tE(UUC)I															NA	NA
-tE(UUC)J															NA	NA
-tE(UUC)K															NA	NA
-tE(UUC)L															NA	NA
-tE(UUC)M															NA	NA
-tE(UUC)P															NA	NA
-tE(UUC)Q															NA	NA
-tF(GAA)B															NA	NA
-tF(GAA)D															NA	NA
-tF(GAA)F															NA	NA
-tF(GAA)G															NA	NA
-tF(GAA)H1															NA	NA
-tF(GAA)H2															NA	NA
-tF(GAA)M															NA	NA
-tF(GAA)N															NA	NA
-tF(GAA)P1															NA	NA
-tF(GAA)P2															NA	NA
-tF(GAA)Q															NA	NA
-tG(CCC)D															NA	NA
-tG(CCC)O															NA	NA
-tG(GCC)B															NA	NA
-tG(GCC)C															NA	NA
-tG(GCC)D1															NA	NA
-tG(GCC)D2															NA	NA
-tG(GCC)E															NA	NA
-tG(GCC)F1															NA	NA
-tG(GCC)F2															NA	NA
-tG(GCC)G1															NA	NA
-tG(GCC)G2															NA	NA
-tG(GCC)J1															NA	NA
-tG(GCC)J2															NA	NA
-tG(GCC)M															NA	NA
-tG(GCC)O1															NA	NA
-tG(GCC)O2															NA	NA
-tG(GCC)P1															NA	NA
-tG(GCC)P2															NA	NA
-tG(UCC)G															NA	NA
-tG(UCC)N															NA	NA
-tG(UCC)O															NA	NA
-tG(UCC)Q															NA	NA
-tH(GUG)E1															NA	NA
-tH(GUG)E2															NA	NA
-tH(GUG)G1															NA	NA
-tH(GUG)G2															NA	NA
-tH(GUG)H															NA	NA
-tH(GUG)K															NA	NA
-tH(GUG)M															NA	NA
-tH(GUG)Q															NA	NA
-tI(AAU)B															NA	NA
-tI(AAU)D															NA	NA
-tI(AAU)E1															NA	NA
-tI(AAU)E2															NA	NA
-tI(AAU)G															NA	NA
-tI(AAU)I1															NA	NA
-tI(AAU)I2															NA	NA
-tI(AAU)L1															NA	NA
-tI(AAU)L2															NA	NA
-tI(AAU)N1															NA	NA
-tI(AAU)N2															NA	NA
-tI(AAU)P1															NA	NA
-tI(AAU)P2															NA	NA
-tI(GAU)Q															NA	NA
-tI(UAU)D															NA	NA
-tI(UAU)L															NA	NA
-tK(CUU)C															NA	NA
-tK(CUU)D1															NA	NA
-tK(CUU)D2															NA	NA
-tK(CUU)E1															NA	NA
-tK(CUU)E2															NA	NA
-tK(CUU)F															NA	NA
-tK(CUU)G1															NA	NA
-tK(CUU)G2															NA	NA
-tK(CUU)G3															NA	NA
-tK(CUU)I															NA	NA
-tK(CUU)J															NA	NA
-tK(CUU)K															NA	NA
-tK(CUU)M															NA	NA
-tK(CUU)P															NA	NA
-tK(UUU)D															NA	NA
-tK(UUU)G1															NA	NA
-tK(UUU)G2															NA	NA
-tK(UUU)K															NA	NA
-tK(UUU)L															NA	NA
-tK(UUU)O															NA	NA
-tK(UUU)P															NA	NA
-tK(UUU)Q															NA	NA
-tL(CAA)A															NA	NA
-tL(CAA)C															NA	NA
-tL(CAA)D															NA	NA
-tL(CAA)G1															NA	NA
-tL(CAA)G2															NA	NA
-tL(CAA)G3															NA	NA
-tL(CAA)K															NA	NA
-tL(CAA)L															NA	NA
-tL(CAA)M															NA	NA
-tL(CAA)N															NA	NA
-tL(GAG)G															NA	NA
-tL(UAA)B1															NA	NA
-tL(UAA)B2															NA	NA
-tL(UAA)D															NA	NA
-tL(UAA)J															NA	NA
-tL(UAA)K															NA	NA
-tL(UAA)L															NA	NA
-tL(UAA)N															NA	NA
-tL(UAA)Q															NA	NA
-tL(UAG)J															NA	NA
-tL(UAG)L1															NA	NA
-tL(UAG)L2															NA	NA
-tM(CAU)C															NA	NA
-tM(CAU)D															NA	NA
-tM(CAU)E															NA	NA
-tM(CAU)J1															NA	NA
-tM(CAU)J2															NA	NA
-tM(CAU)J3															NA	NA
-tM(CAU)M															NA	NA
-tM(CAU)O1															NA	NA
-tM(CAU)O2															NA	NA
-tM(CAU)P															NA	NA
-tM(CAU)Q1															NA	NA
-tM(CAU)Q2															NA	NA
-tN(GUU)C															NA	NA
-tN(GUU)F															NA	NA
-tN(GUU)G															NA	NA
-tN(GUU)K															NA	NA
-tN(GUU)L															NA	NA
-tN(GUU)N1															NA	NA
-tN(GUU)N2															NA	NA
-tN(GUU)O1															NA	NA
-tN(GUU)O2															NA	NA
-tN(GUU)P															NA	NA
-tN(GUU)Q															NA	NA
-tP(AGG)C															NA	NA
-tP(AGG)N															NA	NA
-tP(UGG)A															NA	NA
-tP(UGG)F															NA	NA
-tP(UGG)H															NA	NA
-tP(UGG)L															NA	NA
-tP(UGG)M															NA	NA
-tP(UGG)N1															NA	NA
-tP(UGG)N2															NA	NA
-tP(UGG)O1															NA	NA
-tP(UGG)O2															NA	NA
-tP(UGG)O3															NA	NA
-tP(UGG)Q															NA	NA
-tQ(CUG)M															NA	NA
-tQ(UUG)B															NA	NA
-tQ(UUG)C															NA	NA
-tQ(UUG)D1															NA	NA
-tQ(UUG)D2															NA	NA
-tQ(UUG)D3															NA	NA
-tQ(UUG)E1															NA	NA
-tQ(UUG)E2															NA	NA
-tQ(UUG)H															NA	NA
-tQ(UUG)L															NA	NA
-tQ(UUG)Q															NA	NA
-tR(ACG)D															NA	NA
-tR(ACG)E															NA	NA
-tR(ACG)J															NA	NA
-tR(ACG)K															NA	NA
-tR(ACG)L															NA	NA
-tR(ACG)O															NA	NA
-tR(ACG)Q2															NA	NA
-tR(CCG)L															NA	NA
-tR(CCU)J															NA	NA
-tR(UCU)B															NA	NA
-tR(UCU)D															NA	NA
-tR(UCU)E															NA	NA
-tR(UCU)G1															NA	NA
-tR(UCU)G2															NA	NA
-tR(UCU)G3															NA	NA
-tR(UCU)J1															NA	NA
-tR(UCU)J2															NA	NA
-tR(UCU)K															NA	NA
-tR(UCU)M1															NA	NA
-tR(UCU)M2															NA	NA
-tR(UCU)Q1															NA	NA
-tS(AGA)A															NA	NA
-tS(AGA)B															NA	NA
-tS(AGA)D1															NA	NA
-tS(AGA)D2															NA	NA
-tS(AGA)D3															NA	NA
-tS(AGA)E															NA	NA
-tS(AGA)G															NA	NA
-tS(AGA)H															NA	NA
-tS(AGA)J															NA	NA
-tS(AGA)L															NA	NA
-tS(AGA)M															NA	NA
-tS(CGA)C															NA	NA
-tS(GCU)F															NA	NA
-tS(GCU)O															NA	NA
-tS(GCU)Q1															NA	NA
-tS(UGA)E															NA	NA
-tS(UGA)I															NA	NA
-tS(UGA)P															NA	NA
-tS(UGA)Q2															NA	NA
-tT(AGU)B															NA	NA
-tT(AGU)C															NA	NA
-tT(AGU)D															NA	NA
-tT(AGU)H															NA	NA
-tT(AGU)I1															NA	NA
-tT(AGU)I2															NA	NA
-tT(AGU)J															NA	NA
-tT(AGU)N1															NA	NA
-tT(AGU)N2															NA	NA
-tT(AGU)O1															NA	NA
-tT(AGU)O2															NA	NA
-tT(CGU)K															NA	NA
-tT(UAG)Q2															NA	NA
-tT(UGU)G1															NA	NA
-tT(UGU)G2															NA	NA
-tT(UGU)H															NA	NA
-tT(UGU)P															NA	NA
-tT(UGU)Q1															NA	NA
-tV(AAC)E1															NA	NA
-tV(AAC)E2															NA	NA
-tV(AAC)G1															NA	NA
-tV(AAC)G2															NA	NA
-tV(AAC)G3															NA	NA
-tV(AAC)H															NA	NA
-tV(AAC)J															NA	NA
-tV(AAC)K1															NA	NA
-tV(AAC)K2															NA	NA
-tV(AAC)L															NA	NA
-tV(AAC)M1															NA	NA
-tV(AAC)M2															NA	NA
-tV(AAC)M3															NA	NA
-tV(AAC)O															NA	NA
-tV(CAC)D															NA	NA
-tV(CAC)H															NA	NA
-tV(UAC)B															NA	NA
-tV(UAC)D															NA	NA
-tV(UAC)Q															NA	NA
-tW(CCA)G1															NA	NA
-tW(CCA)G2															NA	NA
-tW(CCA)J															NA	NA
-tW(CCA)K															NA	NA
-tW(CCA)M															NA	NA
-tW(CCA)P															NA	NA
-tW(UCA)Q															NA	NA
-tX(XXX)D															NA	NA
-tX(XXX)L															NA	NA
-tY(GUA)D															NA	NA
-tY(GUA)F1															NA	NA
-tY(GUA)F2															NA	NA
-tY(GUA)J1															NA	NA
-tY(GUA)J2															NA	NA
-tY(GUA)M1															NA	NA
-tY(GUA)M2															NA	NA
-tY(GUA)O															NA	NA
-tY(GUA)Q															NA	NA
-YAL004W															NA	NA
-YAL016C-B															NA	NA
-YAL019W-A															NA	NA
-YAL034C-B															NA	NA
-YAL037C-A															NA	NA
-YAL037C-B															NA	NA
-YAL037W															NA	NA
-YAL045C															NA	NA
-YAL056C-A															NA	NA
-YAL063C-A															NA	NA
-YAL064C-A															NA	NA
-YAL064W															NA	NA
-YAL066W															NA	NA
-YAL067W-A															NA	NA
-YAL068C															NA	NA
-YAL068W-A															NA	NA
-YAL069W															NA	NA
-YAR019W-A															NA	NA
-YAR020C															NA	NA
-YAR030C															NA	NA
-YAR035C-A															NA	NA
-YAR060C															NA	NA
-YAR061W															NA	NA
-YAR068W															NA	NA
-YAR070C															NA	NA
-YBL006W-A															NA	NA
-YBL012C															NA	NA
-YBL028C															NA	NA
-YBL029W															NA	NA
-YBL039C-A															NA	NA
-YBL039W-B															NA	NA
-YBL044W															NA	NA
-YBL065W															NA	NA
-YBL068W-A													ENSG00000108828;ENSG00000106853;ENSG00000140043;ENSG00000258653;ENSG00000171724;ENSG00000197894;ENSG00000115129;ENSG00000196344;ENSG00000172955;ENSG00000196616;ENSG00000187758;ENSG00000248144;ENSG00000140263;ENSG00000205758;ENSG00000180011;ENSG00000198099	VAT1;PTGR1;PTGR2;AC005520.1;VAT1L;ADH5;TP53I3;ADH7;ADH6;ADH1B;ADH1A;ADH1C;SORD;CRYZL1;ZADH2;ADH4	2.54453;3.03951;3.9886;4.87805;4.29594;2.6738;3.61446;1.77665;3.2;2.13333;2.66667;2.13333;3.08123;1.7192;2.38727;3.00752	0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-YBL071C-B															NA	NA
-YBL073W															NA	NA
-YBL077W															NA	NA
-YBL081W															NA	NA
-YBL083C															NA	NA
-YBL086C															NA	NA
-YBL096C															NA	NA
-YBL100W-C															NA	NA
-YBL107W-A															NA	NA
-YBL108C-A															NA	NA
-YBL108W															NA	NA
-YBL109W															NA	NA
-YBL112C													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	2.80236;2.91892;2.43902	0;0;0
-YBR012C															NA	NA
-YBR013C															NA	NA
-YBR032W															NA	NA
-YBR056C-B															NA	NA
-YBR056W-A															NA	NA
-YBR072C-A															NA	NA
-YBR096W													ENSG00000130193	THEM6	15.3846	0
-YBR103C-A															NA	NA
-YBR121C-A															NA	NA
-YBR126W-B															NA	NA
-YBR131C-A															NA	NA
-YBR134W															NA	NA
-YBR141W-A															NA	NA
-YBR144C															NA	NA
-YBR157C															NA	NA
-YBR174C															NA	NA
-YBR178W															NA	NA
-YBR182C-A															NA	NA
-YBR184W															NA	NA
-YBR190W															NA	NA
-YBR191W-A															NA	NA
-YBR196C-B															NA	NA
-YBR197C															NA	NA
-YBR201C-A															NA	NA
-YBR206W															NA	NA
-YBR221W-A															NA	NA
-YBR223W-A															NA	NA
-YBR225W															NA	NA
-YBR226C															NA	NA
-YBR230W-A															NA	NA
-YBR259W															NA	NA
-YBR266C															NA	NA
-YBR277C															NA	NA
-YBR285W															NA	NA
-YBR296C-A															NA	NA
-YBR298C-A															NA	NA
-YCL007C															NA	NA
-YCL012C															NA	NA
-YCL022C															NA	NA
-YCL023C															NA	NA
-YCL041C															NA	NA
-YCL042W															NA	NA
-YCL046W															NA	NA
-YCL054W-A															NA	NA
-YCL074W															NA	NA
-YCL075W															NA	NA
-YCL076W															NA	NA
-YCR001W															NA	NA
-YCR006C															NA	NA
-YCR013C															NA	NA
-YCR016W															NA	NA
-YCR022C															NA	NA
-YCR025C															NA	NA
-YCR038W-A															NA	NA
-YCR043C															NA	NA
-YCR045W-A															NA	NA
-YCR047W-A															NA	NA
-YCR049C															NA	NA
-YCR050C															NA	NA
-YCR064C															NA	NA
-YCR085W															NA	NA
-YCR087W															NA	NA
-YCR090C													ENSG00000162384	CZIB	21.25	0
-YCR095W-A															NA	NA
-YCR099C													ENSG00000108018;ENSG00000134243;ENSG00000184985;ENSG00000137642;ENSG00000156395	SORCS1;SORT1;SORCS2;SORL1;SORCS3	3.16781;3.48977;2.58844;1.44535;2.70049	0;0;0;0;0
-YCR100C													ENSG00000108018;ENSG00000134243;ENSG00000184985;ENSG00000137642;ENSG00000156395	SORCS1;SORT1;SORCS2;SORL1;SORCS3	5.39384;8.18291;4.91803;2.8907;5.15548	0;0;0;0;0
-YCR107W													ENSG00000122787;ENSG00000053371;ENSG00000187134;ENSG00000196139;ENSG00000069424;ENSG00000198074;ENSG00000151632;ENSG00000162482;ENSG00000085662;ENSG00000165568;ENSG00000170049;ENSG00000117448;ENSG00000211454;ENSG00000227471;ENSG00000169282;ENSG00000264006;ENSG00000198610	AKR1D1;AKR7A2;AKR1C1;AKR1C3;KCNAB2;AKR1B10;AKR1C2;AKR7A3;AKR1B1;AKR1E2;KCNAB3;AKR1A1;AKR7L;AKR1B15;KCNAB1;AKR1C8P;AKR1C4	12.5767;15.5989;13.6223;14.5511;14.2169;13.9241;13.6223;16.6163;12.6582;14.6875;16.5842;12.9231;16.0121;12.2093;12.8878;13.4969;14.2415	0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-YCR108C															NA	NA
-YDL007C-A															NA	NA
-YDL016C															NA	NA
-YDL022C-A															NA	NA
-YDL023C															NA	NA
-YDL025W-A															NA	NA
-YDL032W															NA	NA
-YDL034W															NA	NA
-YDL037C															NA	NA
-YDL062W															NA	NA
-YDL071C															NA	NA
-YDL086C-A															NA	NA
-YDL096C															NA	NA
-YDL114W-A															NA	NA
-YDL118W															NA	NA
-YDL151C															NA	NA
-YDL158C															NA	NA
-YDL159W-A															NA	NA
-YDL162C															NA	NA
-YDL163W															NA	NA
-YDL169C															NA	NA
-YDL176W															NA	NA
-YDL177C															NA	NA
-YDL185C-A															NA	NA
-YDL186W															NA	NA
-YDL187C															NA	NA
-YDL221W															NA	NA
-YDL228C															NA	NA
-YDL240C-A															NA	NA
-YDL241W															NA	NA
-YDL242W															NA	NA
-YDL243C													ENSG00000122787;ENSG00000053371;ENSG00000187134;ENSG00000196139;ENSG00000069424;ENSG00000198074;ENSG00000151632;ENSG00000162482;ENSG00000085662;ENSG00000165568;ENSG00000170049;ENSG00000117448;ENSG00000211454;ENSG00000227471;ENSG00000169282;ENSG00000264006;ENSG00000198610	AKR1D1;AKR7A2;AKR1C1;AKR1C3;KCNAB2;AKR1B10;AKR1C2;AKR7A3;AKR1B1;AKR1E2;KCNAB3;AKR1A1;AKR7L;AKR1B15;KCNAB1;AKR1C8P;AKR1C4	11.3497;15.0418;12.6935;13.9319;13.9759;13.6076;12.6935;17.2205;12.3418;15;15.3465;12.3077;16.9184;12.5;12.8878;11.6564;13.6223	0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-YDL247W-A															NA	NA
-YDR003W-A															NA	NA
-YDR010C															NA	NA
-YDR015C															NA	NA
-YDR024W															NA	NA
-YDR042C															NA	NA
-YDR068W															NA	NA
-YDR094W															NA	NA
-YDR095C															NA	NA
-YDR102C															NA	NA
-YDR114C															NA	NA
-YDR118W-A															NA	NA
-YDR124W															NA	NA
-YDR154C															NA	NA
-YDR157W															NA	NA
-YDR169C-A															NA	NA
-YDR194W-A															NA	NA
-YDR203W															NA	NA
-YDR220C															NA	NA
-YDR230W															NA	NA
-YDR246W-A															NA	NA
-YDR249C															NA	NA
-YDR271C															NA	NA
-YDR274C															NA	NA
-YDR277C															NA	NA
-YDR286C															NA	NA
-YDR320W-B															NA	NA
-YDR327W															NA	NA
-YDR344C															NA	NA
-YDR354C-A															NA	NA
-YDR360W															NA	NA
-YDR371C-A															NA	NA
-YDR426C															NA	NA
-YDR433W															NA	NA
-YDR455C															NA	NA
-YDR461C-A															NA	NA
-YDR464C-A															NA	NA
-YDR475C															NA	NA
-YDR524C-A															NA	NA
-YDR524W-C															NA	NA
-YDR525W															NA	NA
-YDR535C															NA	NA
-YDR537C															NA	NA
-YDR542W															NA	NA
-YDR543C															NA	NA
-YDR544C															NA	NA
-YEL008C-A															NA	NA
-YEL008W															NA	NA
-YEL009C-A															NA	NA
-YEL010W															NA	NA
-YEL020C-B															NA	NA
-YEL023C															NA	NA
-YEL028W															NA	NA
-YEL030C-A															NA	NA
-YEL032C-A															NA	NA
-YEL035C															NA	NA
-YEL057C															NA	NA
-YEL067C															NA	NA
-YEL068C															NA	NA
-YEL073C															NA	NA
-YEL074W															NA	NA
-YEL075C													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	2.94985;1.40541;2.2439	0;0;0
-YEL075W-A															NA	NA
-YEL076C															NA	NA
-YEL076C-A															NA	NA
-YEL077W-A															NA	NA
-YER006C-A															NA	NA
-YER023C-A															NA	NA
-YER034W															NA	NA
-YER046W-A															NA	NA
-YER066C-A															NA	NA
-YER076C															NA	NA
-YER078W-A															NA	NA
-YER079W															NA	NA
-YER085C															NA	NA
-YER087C-A															NA	NA
-YER088C-A															NA	NA
-YER088W-B															NA	NA
-YER090C-A															NA	NA
-YER091C-A															NA	NA
-YER097W															NA	NA
-YER119C-A															NA	NA
-YER121W															NA	NA
-YER133W-A															NA	NA
-YER135C															NA	NA
-YER137W-A															NA	NA
-YER138W-A															NA	NA
-YER145C-A															NA	NA
-YER152W-A															NA	NA
-YER156C													ENSG00000139637	C12orf10	39.6277	1
-YER158C															NA	NA
-YER172C-A															NA	NA
-YER175W-A															NA	NA
-YER186C															NA	NA
-YER187W															NA	NA
-YER188C-A															NA	NA
-YER188W															NA	NA
-YER189W													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	2.94985;1.51351;2.34146	0;0;0
-YFL012W															NA	NA
-YFL019C															NA	NA
-YFL031C-A															NA	NA
-YFL041W-A															NA	NA
-YFL056C															NA	NA
-YFL063W															NA	NA
-YFL064C													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	4.27729;2.16216;3.21951	0;0;0
-YFL065C															NA	NA
-YFR009W-A															NA	NA
-YFR012W-A															NA	NA
-YFR020W															NA	NA
-YFR026C															NA	NA
-YFR034W-A															NA	NA
-YFR054C															NA	NA
-YGL006W-A															NA	NA
-YGL007C-A															NA	NA
-YGL007W															NA	NA
-YGL014C-A															NA	NA
-YGL015C															NA	NA
-YGL052W															NA	NA
-YGL063C-A															NA	NA
-YGL069C															NA	NA
-YGL102C															NA	NA
-YGL109W															NA	NA
-YGL117W															NA	NA
-YGL118C															NA	NA
-YGL123C-A															NA	NA
-YGL132W															NA	NA
-YGL138C															NA	NA
-YGL176C															NA	NA
-YGL177W															NA	NA
-YGL182C															NA	NA
-YGL188C															NA	NA
-YGL188C-A															NA	NA
-YGL193C															NA	NA
-YGL199C															NA	NA
-YGL217C															NA	NA
-YGL218W															NA	NA
-YGL235W															NA	NA
-YGL258W-A															NA	NA
-YGL260W															NA	NA
-YGL261C															NA	NA
-YGL262W															NA	NA
-YGR011W															NA	NA
-YGR018C															NA	NA
-YGR021W													ENSG00000136463	TACO1	23.569	0
-YGR022C															NA	NA
-YGR025W															NA	NA
-YGR035C															NA	NA
-YGR035W-A															NA	NA
-YGR039W															NA	NA
-YGR050C															NA	NA
-YGR051C															NA	NA
-YGR053C															NA	NA
-YGR064W															NA	NA
-YGR068W-A															NA	NA
-YGR079W															NA	NA
-YGR107W															NA	NA
-YGR111W															NA	NA
-YGR121W-A															NA	NA
-YGR122C-A															NA	NA
-YGR126W															NA	NA
-YGR127W													ENSG00000183597	TANGO2	24.2902	0
-YGR139W															NA	NA
-YGR146C															NA	NA
-YGR153W															NA	NA
-YGR161W-C															NA	NA
-YGR164W															NA	NA
-YGR174C															NA	NA
-YGR174W-A															NA	NA
-YGR176W															NA	NA
-YGR182C															NA	NA
-YGR187C													ENSG00000235173	HGH1	22.3077	0
-YGR190C															NA	NA
-YGR204C-A															NA	NA
-YGR237C															NA	NA
-YGR240C-A															NA	NA
-YGR259C															NA	NA
-YGR273C															NA	NA
-YGR291C															NA	NA
-YHL006W-A															NA	NA
-YHL013C													ENSG00000155100;ENSG00000164164;ENSG00000189401	OTUD6B;OTUD4;OTUD6A	31.5789;2.66921;25.3472	0;0;0
-YHL015W-A															NA	NA
-YHL030W-A															NA	NA
-YHL034W-A															NA	NA
-YHL041W															NA	NA
-YHL046C															NA	NA
-YHL046W-A															NA	NA
-YHL048C-A															NA	NA
-YHL049C													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	5.30973;2.7027;4	0;0;0
-YHR022C-A															NA	NA
-YHR028W-A															NA	NA
-YHR032C-A															NA	NA
-YHR032W-A															NA	NA
-YHR050W-A															NA	NA
-YHR054C															NA	NA
-YHR070C-A															NA	NA
-YHR071C-A															NA	NA
-YHR073C-B															NA	NA
-YHR073W-A															NA	NA
-YHR086W-A															NA	NA
-YHR093W															NA	NA
-YHR095W															NA	NA
-YHR125W															NA	NA
-YHR131W-A															NA	NA
-YHR137C-A															NA	NA
-YHR139C-A															NA	NA
-YHR165W-A															NA	NA
-YHR173C															NA	NA
-YHR180C-B															NA	NA
-YHR182C-A															NA	NA
-YHR182W															NA	NA
-YHR193C-A															NA	NA
-YHR212C															NA	NA
-YHR212W-A															NA	NA
-YHR213W															NA	NA
-YHR213W-B															NA	NA
-YHR214C-E															NA	NA
-YHR214W-A															NA	NA
-YHR217C															NA	NA
-YHR218W-A													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	2.80236;2.91892;2.43902	0;0;0
-YHR219W													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	4.12979;3.02703;3.70732	0;0;0
-YIL002W-A															NA	NA
-YIL012W															NA	NA
-YIL014C-A															NA	NA
-YIL021C-A															NA	NA
-YIL024C															NA	NA
-YIL025C															NA	NA
-YIL028W															NA	NA
-YIL029W-A															NA	NA
-YIL032C															NA	NA
-YIL047C-A															NA	NA
-YIL055C															NA	NA
-YIL058W															NA	NA
-YIL059C															NA	NA
-YIL068W-A															NA	NA
-YIL077C															NA	NA
-YIL086C															NA	NA
-YIL100W															NA	NA
-YIL102C															NA	NA
-YIL105W-A															NA	NA
-YIL115W-A															NA	NA
-YIL141W															NA	NA
-YIL142C-A															NA	NA
-YIL152W															NA	NA
-YIL156W-B															NA	NA
-YIL161W															NA	NA
-YIL163C															NA	NA
-YIL170W															NA	NA
-YIL171W															NA	NA
-YIL174W															NA	NA
-YIL175W															NA	NA
-YIL176C															NA	NA
-YIR018C-A															NA	NA
-YIR020C															NA	NA
-YIR020C-B															NA	NA
-YIR020W-A															NA	NA
-YIR030C															NA	NA
-YIR030W-A															NA	NA
-YIR040C															NA	NA
-YIR041W															NA	NA
-YJL009W															NA	NA
-YJL015C															NA	NA
-YJL020W-A															NA	NA
-YJL022W															NA	NA
-YJL026C-A															NA	NA
-YJL027C															NA	NA
-YJL032W															NA	NA
-YJL043W															NA	NA
-YJL047C-A															NA	NA
-YJL049W															NA	NA
-YJL052C-A															NA	NA
-YJL064W															NA	NA
-YJL077W-A															NA	NA
-YJL077W-B															NA	NA
-YJL119C															NA	NA
-YJL127W-A															NA	NA
-YJL135W															NA	NA
-YJL136W-A															NA	NA
-YJL150W															NA	NA
-YJL169W															NA	NA
-YJL181W															NA	NA
-YJL188C															NA	NA
-YJL197C-A															NA	NA
-YJL199C															NA	NA
-YJL211C															NA	NA
-YJL215C															NA	NA
-YJL222W-A															NA	NA
-YJL222W-B															NA	NA
-YJL223C															NA	NA
-YJR011C															NA	NA
-YJR020W															NA	NA
-YJR037W															NA	NA
-YJR039W															NA	NA
-YJR056C															NA	NA
-YJR061W													ENSG00000106692	FKTN	16.4859	0
-YJR071W															NA	NA
-YJR079W															NA	NA
-YJR083C															NA	NA
-YJR087W															NA	NA
-YJR114W															NA	NA
-YJR115W															NA	NA
-YJR128W															NA	NA
-YJR140W-A															NA	NA
-YJR141W															NA	NA
-YJR151W-A															NA	NA
-YJR155W													ENSG00000122787;ENSG00000053371;ENSG00000187134;ENSG00000196139;ENSG00000069424;ENSG00000198074;ENSG00000151632;ENSG00000162482;ENSG00000085662;ENSG00000165568;ENSG00000170049;ENSG00000117448;ENSG00000211454;ENSG00000227471;ENSG00000169282;ENSG00000264006;ENSG00000198610	AKR1D1;AKR7A2;AKR1C1;AKR1C3;KCNAB2;AKR1B10;AKR1C2;AKR7A3;AKR1B1;AKR1E2;KCNAB3;AKR1A1;AKR7L;AKR1B15;KCNAB1;AKR1C8P;AKR1C4	9.81595;12.2563;10.2167;11.4551;10.6024;11.0759;10.2167;13.8973;10.443;12.1875;12.1287;10.7692;13.5952;10.4651;9.54654;9.81595;10.8359	0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-YJR157W															NA	NA
-YJR162C															NA	NA
-YKL030W															NA	NA
-YKL036C															NA	NA
-YKL053W															NA	NA
-YKL063C															NA	NA
-YKL066W															NA	NA
-YKL068W-A															NA	NA
-YKL075C															NA	NA
-YKL077W															NA	NA
-YKL083W															NA	NA
-YKL097C															NA	NA
-YKL098W															NA	NA
-YKL100W-A															NA	NA
-YKL102C															NA	NA
-YKL106C-A															NA	NA
-YKL111C															NA	NA
-YKL115C															NA	NA
-YKL118W															NA	NA
-YKL123W															NA	NA
-YKL131W															NA	NA
-YKL136W															NA	NA
-YKL147C															NA	NA
-YKL153W															NA	NA
-YKL156C-A															NA	NA
-YKL162C-A															NA	NA
-YKL169C															NA	NA
-YKL177W															NA	NA
-YKL202W															NA	NA
-YKL223W															NA	NA
-YKL224C															NA	NA
-YKL225W															NA	NA
-YKR011C															NA	NA
-YKR012C															NA	NA
-YKR015C															NA	NA
-YKR032W															NA	NA
-YKR033C															NA	NA
-YKR035C															NA	NA
-YKR040C															NA	NA
-YKR047W															NA	NA
-YKR073C															NA	NA
-YKR077W															NA	NA
-YLL016W															NA	NA
-YLL017W															NA	NA
-YLL019W-A															NA	NA
-YLL025W															NA	NA
-YLL044W															NA	NA
-YLL064C															NA	NA
-YLL065W															NA	NA
-YLL066W-B															NA	NA
-YLL067C													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	14.1593;12;11.6098	0;0;0
-YLR012C															NA	NA
-YLR030W															NA	NA
-YLR031W															NA	NA
-YLR041W															NA	NA
-YLR049C															NA	NA
-YLR053C															NA	NA
-YLR062C															NA	NA
-YLR076C															NA	NA
-YLR112W															NA	NA
-YLR120W-A															NA	NA
-YLR124W															NA	NA
-YLR125W															NA	NA
-YLR146W-A															NA	NA
-YLR149C-A															NA	NA
-YLR154C-G															NA	NA
-YLR154C-H															NA	NA
-YLR154W-A															NA	NA
-YLR154W-B															NA	NA
-YLR154W-E															NA	NA
-YLR154W-F															NA	NA
-YLR156C-A															NA	NA
-YLR156W															NA	NA
-YLR157C-C															NA	NA
-YLR157W-D															NA	NA
-YLR157W-E															NA	NA
-YLR159C-A															NA	NA
-YLR159W															NA	NA
-YLR161W															NA	NA
-YLR162W-A															NA	NA
-YLR163W-A															NA	NA
-YLR184W															NA	NA
-YLR202C															NA	NA
-YLR217W															NA	NA
-YLR222C-A															NA	NA
-YLR232W															NA	NA
-YLR235C															NA	NA
-YLR236C															NA	NA
-YLR252W															NA	NA
-YLR255C															NA	NA
-YLR261C															NA	NA
-YLR264C-A															NA	NA
-YLR267W															NA	NA
-YLR280C															NA	NA
-YLR282C															NA	NA
-YLR285C-A															NA	NA
-YLR286W-A															NA	NA
-YLR299C-A															NA	NA
-YLR307C-A															NA	NA
-YLR313C															NA	NA
-YLR317W															NA	NA
-YLR331C															NA	NA
-YLR347W-A															NA	NA
-YLR349W															NA	NA
-YLR358C															NA	NA
-YLR361C-A															NA	NA
-YLR364C-A															NA	NA
-YLR365W															NA	NA
-YLR366W															NA	NA
-YLR399W-A															NA	NA
-YLR406C-A															NA	NA
-YLR412C-A															NA	NA
-YLR416C															NA	NA
-YLR428C															NA	NA
-YLR434C															NA	NA
-YLR437C-A															NA	NA
-YLR462W													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	4.57227;2.27027;3.12195	0;0;0
-YLR463C															NA	NA
-YLR464W															NA	NA
-YLR465C															NA	NA
-YLR466C-B															NA	NA
-YML002W													ENSG00000286143;ENSG00000065534;ENSG00000167657;ENSG00000162614;ENSG00000035664;ENSG00000196730	AC053503.7;MYLK;DAPK3;NEXN;DAPK2;DAPK1	13.4111;5.01567;20.2643;9.92593;19.0574;7.55245	0;0;0;0;0;0
-YML003W															NA	NA
-YML012C-A															NA	NA
-YML020W															NA	NA
-YML031C-A															NA	NA
-YML034C-A															NA	NA
-YML037C															NA	NA
-YML050W															NA	NA
-YML053C															NA	NA
-YML054C-A															NA	NA
-YML079W															NA	NA
-YML083C															NA	NA
-YML084W															NA	NA
-YML089C															NA	NA
-YML094C-A															NA	NA
-YML100W-A															NA	NA
-YML108W															NA	NA
-YML116W-A															NA	NA
-YML119W															NA	NA
-YML122C															NA	NA
-YMR001C-A															NA	NA
-YMR007W															NA	NA
-YMR013W-A															NA	NA
-YMR031W-A															NA	NA
-YMR057C															NA	NA
-YMR075C-A															NA	NA
-YMR082C															NA	NA
-YMR086C-A															NA	NA
-YMR103C															NA	NA
-YMR105W-A															NA	NA
-YMR107W															NA	NA
-YMR122C															NA	NA
-YMR124W															NA	NA
-YMR135W-A															NA	NA
-YMR141C															NA	NA
-YMR144W															NA	NA
-YMR147W															NA	NA
-YMR153C-A															NA	NA
-YMR158C-A															NA	NA
-YMR160W															NA	NA
-YMR175W-A															NA	NA
-YMR178W															NA	NA
-YMR181C															NA	NA
-YMR194C-A															NA	NA
-YMR206W															NA	NA
-YMR230W-A															NA	NA
-YMR242W-A															NA	NA
-YMR245W															NA	NA
-YMR247W-A															NA	NA
-YMR252C															NA	NA
-YMR265C															NA	NA
-YMR272W-A															NA	NA
-YMR272W-B															NA	NA
-YMR294W-A															NA	NA
-YMR295C															NA	NA
-YMR307C-A															NA	NA
-YMR315W-A															NA	NA
-YMR316C-A															NA	NA
-YMR317W															NA	NA
-YMR320W															NA	NA
-YMR325W															NA	NA
-YMR326C															NA	NA
-YNL011C															NA	NA
-YNL017C															NA	NA
-YNL018C															NA	NA
-YNL028W															NA	NA
-YNL034W															NA	NA
-YNL042W-B															NA	NA
-YNL043C															NA	NA
-YNL050C															NA	NA
-YNL057W															NA	NA
-YNL067W-A															NA	NA
-YNL067W-B															NA	NA
-YNL089C															NA	NA
-YNL097C-B															NA	NA
-YNL097W-A															NA	NA
-YNL103W															NA	NA
-YNL103W-A															NA	NA
-YNL120C															NA	NA
-YNL140C															NA	NA
-YNL144C															NA	NA
-YNL144W-A															NA	NA
-YNL146C-A															NA	NA
-YNL150W															NA	NA
-YNL165W															NA	NA
-YNL170W															NA	NA
-YNL171C															NA	NA
-YNL184C															NA	NA
-YNL193W															NA	NA
-YNL205C															NA	NA
-YNL226W															NA	NA
-YNL239W													ENSG00000108578	BLMH	39.1209	1
-YNL269W															NA	NA
-YNL276C															NA	NA
-YNL277W-A															NA	NA
-YNL285W															NA	NA
-YNL296W															NA	NA
-YNL303W															NA	NA
-YNL319W															NA	NA
-YNL331C													ENSG00000122787;ENSG00000053371;ENSG00000187134;ENSG00000196139;ENSG00000069424;ENSG00000198074;ENSG00000151632;ENSG00000162482;ENSG00000085662;ENSG00000165568;ENSG00000170049;ENSG00000117448;ENSG00000211454;ENSG00000227471;ENSG00000169282;ENSG00000264006;ENSG00000198610	AKR1D1;AKR7A2;AKR1C1;AKR1C3;KCNAB2;AKR1B10;AKR1C2;AKR7A3;AKR1B1;AKR1E2;KCNAB3;AKR1A1;AKR7L;AKR1B15;KCNAB1;AKR1C8P;AKR1C4	12.2699;15.5989;13.0031;14.2415;14.9398;13.2911;13.0031;17.8248;12.3418;15;15.8416;12.9231;17.5227;11.6279;14.0811;13.1902;13.9319	0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-YNL337W															NA	NA
-YNL338W															NA	NA
-YNR001W-A															NA	NA
-YNR003W-A															NA	NA
-YNR014W															NA	NA
-YNR020C													ENSG00000166896	ATP23	28.4553	1
-YNR040W															NA	NA
-YNR042W															NA	NA
-YNR075C-A															NA	NA
-YNR076W															NA	NA
-YNR077C															NA	NA
-YOL013W-A															NA	NA
-YOL014W															NA	NA
-YOL015W															NA	NA
-YOL019W-A															NA	NA
-YOL024W															NA	NA
-YOL036W															NA	NA
-YOL038C-A															NA	NA
-YOL046C															NA	NA
-YOL050C															NA	NA
-YOL063C															NA	NA
-YOL083C-A															NA	NA
-YOL085C															NA	NA
-YOL085W-A															NA	NA
-YOL097W-A															NA	NA
-YOL106W															NA	NA
-YOL118C															NA	NA
-YOL131W															NA	NA
-YOL150C															NA	NA
-YOL155W-A															NA	NA
-YOL160W															NA	NA
-YOL164W-A															NA	NA
-YOL165C													ENSG00000122787;ENSG00000053371;ENSG00000187134;ENSG00000196139;ENSG00000069424;ENSG00000198074;ENSG00000151632;ENSG00000162482;ENSG00000085662;ENSG00000165568;ENSG00000170049;ENSG00000117448;ENSG00000211454;ENSG00000227471;ENSG00000169282;ENSG00000264006;ENSG00000198610	AKR1D1;AKR7A2;AKR1C1;AKR1C3;KCNAB2;AKR1B10;AKR1C2;AKR7A3;AKR1B1;AKR1E2;KCNAB3;AKR1A1;AKR7L;AKR1B15;KCNAB1;AKR1C8P;AKR1C4	4.29448;5.01393;5.88235;6.50155;5.3012;5.06329;5.88235;5.13595;4.74684;5.625;6.43564;5.23077;5.13595;4.94186;4.05728;5.52147;6.19195	0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-YOL166W-A															NA	NA
-YOR008W-B															NA	NA
-YOR011W-A															NA	NA
-YOR012W															NA	NA
-YOR024W															NA	NA
-YOR029W															NA	NA
-YOR041C															NA	NA
-YOR050C															NA	NA
-YOR055W															NA	NA
-YOR072W															NA	NA
-YOR072W-A															NA	NA
-YOR072W-B															NA	NA
-YOR073W-A															NA	NA
-YOR102W															NA	NA
-YOR105W															NA	NA
-YOR108C-A															NA	NA
-YOR114W															NA	NA
-YOR121C															NA	NA
-YOR139C															NA	NA
-YOR161W-A															NA	NA
-YOR161W-B															NA	NA
-YOR169C															NA	NA
-YOR170W															NA	NA
-YOR186C-A															NA	NA
-YOR192C-C															NA	NA
-YOR200W															NA	NA
-YOR203W															NA	NA
-YOR231C-A															NA	NA
-YOR248W															NA	NA
-YOR263C															NA	NA
-YOR289W													ENSG00000144233;ENSG00000101935	AMMECR1L;AMMECR1	25.1613;23.1231	1;0
-YOR293C-A															NA	NA
-YOR300W															NA	NA
-YOR309C															NA	NA
-YOR314W															NA	NA
-YOR314W-A															NA	NA
-YOR316C-A															NA	NA
-YOR318C															NA	NA
-YOR325W															NA	NA
-YOR333C															NA	NA
-YOR335W-A															NA	NA
-YOR343C															NA	NA
-YOR364W															NA	NA
-YOR366W															NA	NA
-YOR376W-A															NA	NA
-YOR379C															NA	NA
-YOR381W-A															NA	NA
-YOR394C-A															NA	NA
-YOR394W															NA	NA
-YPL025C															NA	NA
-YPL034W															NA	NA
-YPL035C															NA	NA
-YPL038W-A															NA	NA
-YPL039W															NA	NA
-YPL062W															NA	NA
-YPL073C															NA	NA
-YPL077C															NA	NA
-YPL080C															NA	NA
-YPL088W															NA	NA
-YPL102C															NA	NA
-YPL135C-A															NA	NA
-YPL136W															NA	NA
-YPL142C															NA	NA
-YPL152W-A															NA	NA
-YPL197C															NA	NA
-YPL222C-A															NA	NA
-YPL250W-A															NA	NA
-YPL251W															NA	NA
-YPL261C															NA	NA
-YPL272C															NA	NA
-YPL275W															NA	NA
-YPL276W															NA	NA
-YPL278C															NA	NA
-YPL282C															NA	NA
-YPR002C-A															NA	NA
-YPR014C															NA	NA
-YPR016W-A															NA	NA
-YPR044C															NA	NA
-YPR053C															NA	NA
-YPR059C															NA	NA
-YPR074W-A															NA	NA
-YPR076W															NA	NA
-YPR078C															NA	NA
-YPR092W															NA	NA
-YPR096C															NA	NA
-YPR099C															NA	NA
-YPR108W-A															NA	NA
-YPR136C															NA	NA
-YPR145C-A															NA	NA
-YPR160C-A															NA	NA
-YPR160W-A															NA	NA
-YPR177C															NA	NA
-YPR195C															NA	NA
-YPR197C															NA	NA
-YPR202W													ENSG00000108771;ENSG00000107201;ENSG00000115267	DHX58;DDX58;IFIH1	4.57227;3.02703;4	0;0;0
-YPR203W															NA	NA
-ZOD1															NA	NA
+YGD_ID	gene_name	NCBI_ID	chr	start	end	strand	gene_type	gene_description	human_gene_ID	human_gene_name	yeast_gene_similarity	interpro_ID	interpro_description	GO_slim_ID	GO_slim_description
+ETS1-1															
+ETS1-2															
+ETS2-1															
+ETS2-2															
+HRA1															
+ICR1															
+IRT1															
+ITS1-1															
+ITS1-2															
+ITS2-1															
+ITS2-2															
+LSR1															
+NME1															
+PWR1															
+Q0010	Q0010		Mito	3952	4338	+	protein_coding	Dubious open reading frame; unlikely to encode a protein, based on available experimental and comparative sequence data; partially overlaps the dubious ORF Q0017 [Source:SGD;Acc:S000007257]						GO:0005739	mitochondrion
+Q0017	Q0017		Mito	4254	4415	+	protein_coding	Dubious open reading frame; unlikely to encode a protein, based on available experimental and comparative sequence data; partially overlaps the dubious ORF Q0010 [Source:SGD;Acc:S000007258]						GO:0005739	mitochondrion
+Q0020															
+Q0032	Q0032		Mito	11667	11957	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007259]						GO:0005739	mitochondrion
+Q0045	COX1	854598	Mito	13818	26701	+	protein_coding	Subunit I of cytochrome c oxidase (Complex IV); Complex IV is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Source:SGD;Acc:S000007260]	ENSG00000198804	MT-CO1	51.6569	IPR000883;IPR023615;IPR023616;IPR033944;IPR036927	Cytochrome c oxidase subunit I;Cytochrome c oxidase, subunit I, copper-binding site;Cytochrome c oxidase-like, subunit I domain;Cytochrome c oxidase subunit I domain;Cytochrome c oxidase-like, subunit I  superfamily	GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085	generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport
+Q0050		854593	Mito	13818	16322	+	protein_coding	Reverse transcriptase required for splicing of the COX1 pre-mRNA; encoded by a mobile group II intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007261]				IPR000477;IPR003615;IPR024937;IPR036927	Reverse transcriptase domain;HNH nuclease;Domain X;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0006397;GO:0006310;GO:0016740;GO:0016779	mitochondrion;mRNA processing;DNA recombination;transferase activity;nucleotidyltransferase activity
+Q0055		854594	Mito	13818	18830	+	protein_coding	Reverse transcriptase required for splicing of the COX1 pre-mRNA; encoded by a mobile group II intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007262]				IPR000477;IPR000883;IPR003615;IPR023616;IPR024937;IPR036927	Reverse transcriptase domain;Cytochrome c oxidase subunit I;HNH nuclease;Cytochrome c oxidase-like, subunit I domain;Domain X;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0006397;GO:0006091;GO:0045333;GO:0016491;GO:0022857;GO:0043167;GO:0006310;GO:0016740;GO:0016779	mitochondrion;mRNA processing;generation of precursor metabolites and energy;cellular respiration;oxidoreductase activity;transmembrane transporter activity;ion binding;DNA recombination;transferase activity;nucleotidyltransferase activity
+Q0060	AI3	854595	Mito	13818	19996	+	protein_coding	Endonuclease I-SceIII; encoded by a mobile group I intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007263]				IPR000883;IPR004860;IPR023616;IPR027434;IPR036927	Cytochrome c oxidase subunit I;Homing endonuclease, LAGLIDADG;Cytochrome c oxidase-like, subunit I domain;Homing endonuclease;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085;GO:0006310;GO:0008380	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport;DNA recombination;RNA splicing
+Q0065	AI4	854596	Mito	13818	21935	+	protein_coding	Endonuclease I-SceII; encoded by a mobile group I intron within the mitochondrial COX1 gene; intron is normally spliced by the BI4p maturase but AI4p can mutate to acquire the same maturase activity [Source:SGD;Acc:S000007264]	ENSG00000198804	MT-CO1	34.308	IPR000883;IPR004860;IPR023616;IPR027434;IPR036927	Cytochrome c oxidase subunit I;Homing endonuclease, LAGLIDADG;Cytochrome c oxidase-like, subunit I domain;Homing endonuclease;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085;GO:0006310;GO:0008380	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport;DNA recombination;RNA splicing
+Q0070		854597	Mito	13818	23167	+	protein_coding	Endonuclease I-SceIV; involved in intron mobility; encoded by a mobile group I intron within the mitochondrial COX1 gene [Source:SGD;Acc:S000007265]	ENSG00000198804	MT-CO1	45.0292	IPR000883;IPR004860;IPR023615;IPR023616;IPR027434;IPR036927	Cytochrome c oxidase subunit I;Homing endonuclease, LAGLIDADG;Cytochrome c oxidase, subunit I, copper-binding site;Cytochrome c oxidase-like, subunit I domain;Homing endonuclease;Cytochrome c oxidase-like, subunit I  superfamily	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857;GO:0043167;GO:0006811;GO:0055085;GO:0008380;GO:0006310	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity;ion binding;ion transport;transmembrane transport;RNA splicing;DNA recombination
+Q0075		854599	Mito	24156	25255	+	protein_coding	Protein of unknown function; encoded within an intron of the mitochondrial COX1 gene; translational initiation codon is predicted to be ATA rather than ATG [Source:SGD;Acc:S000007266]				IPR004860;IPR027434	Homing endonuclease, LAGLIDADG;Homing endonuclease	GO:0005739;GO:0003723;GO:0003677;GO:0016787;GO:0004518;GO:0008380;GO:0006310	mitochondrion;RNA binding;DNA binding;hydrolase activity;nuclease activity;RNA splicing;DNA recombination
+Q0080	ATP8	854600;24573117	Mito	27666	27812	+	protein_coding	Subunit 8 of the F0 sector of mitochondrial F1F0 ATP synthase; encoded on the mitochondrial genome; ATP8 and ATP6 mRNAs are not translated in the absence of the F1 sector of ATPase [Source:SGD;Acc:S000007267]				IPR009230	ATP synthase protein 8, fungi	GO:0006811;GO:0055086;GO:0055085;GO:0022857	ion transport;nucleobase-containing small molecule metabolic process;transmembrane transport;transmembrane transporter activity
+Q0085	ATP6	854601	Mito	28487	29266	+	protein_coding	Subunit a of the F0 sector of mitochondrial F1F0 ATP synthase; mitochondrially encoded; translation is specifically activated by Atp22p; ATP6 and ATP8 mRNAs are not translated in the absence of the F1 sector of ATPase; mutations in human ortholog MT-ATP6 are associated with neurodegenerative disorders such as Neurogenic Ataxia and Retinitis Pigmentosa (NARP), Leigh syndrome (LS), Charcot-Marie-Tooth (CMT), and ataxia telangiectasia [Source:SGD;Acc:S000007268]	ENSG00000198899	MT-ATP6	30.9735	IPR000568;IPR023011;IPR035908	ATP synthase, F0 complex, subunit A;ATP synthase, F0 complex, subunit A, active site;ATP synthase, F0 complex, subunit A superfamily	GO:0006811;GO:0055086;GO:0055085;GO:0022857	ion transport;nucleobase-containing small molecule metabolic process;transmembrane transport;transmembrane transporter activity
+Q0092	Q0092		Mito	30874	31014	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007269]						GO:0005739	mitochondrion
+Q0105	COB	854583	Mito	36540	43647	+	protein_coding	Cytochrome b; mitochondrially encoded subunit of the ubiquinol-cytochrome c reductase complex which includes Cobp, Rip1p, Cyt1p, Cor1p, Qcr2p, Qcr6p, Qcr7p, Qcr8p, Qcr9p, and Qcr10p [Source:SGD;Acc:S000007270]	ENSG00000198727	MT-CYB	46.3158	IPR005797;IPR005798;IPR016174;IPR027387;IPR030689;IPR036150	Cytochrome b/b6, N-terminal;Cytochrome b/b6, C-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Cytochrome b;Cytochrome b/b6, C-terminal domain superfamily	GO:0043167;GO:0016020;GO:0016491;GO:0006091;GO:0045333;GO:0055086	ion binding;membrane;oxidoreductase activity;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process
+Q0110		854604	Mito	36540	38579	+	protein_coding	Mitochondrial mRNA maturase with a role in splicing; encoded by both exon and intron sequences of partially processed COB mRNA [Source:SGD;Acc:S000007271]				IPR004860;IPR005797;IPR016174;IPR027387;IPR027434	Homing endonuclease, LAGLIDADG;Cytochrome b/b6, N-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Homing endonuclease	GO:0005739;GO:0016020;GO:0016491;GO:0016787;GO:0004518;GO:0006397;GO:0008380;GO:0006091	mitochondrion;membrane;oxidoreductase activity;hydrolase activity;nuclease activity;mRNA processing;RNA splicing;generation of precursor metabolites and energy
+Q0115		854605	Mito	36540	40265	+	protein_coding	Mitochondrial mRNA maturase; forms a complex with Mrs1p to mediate splicing of the bI3 intron of the COB gene; encoded by both exon and intron sequences of partially processed COB mRNA [Source:SGD;Acc:S000007272]				IPR004860;IPR005797;IPR016174;IPR027387;IPR027434	Homing endonuclease, LAGLIDADG;Cytochrome b/b6, N-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Homing endonuclease	GO:0005739;GO:0016020;GO:0003723;GO:0016491;GO:0016787;GO:0004518;GO:0006397;GO:0008380;GO:0006091	mitochondrion;membrane;RNA binding;oxidoreductase activity;hydrolase activity;nuclease activity;mRNA processing;RNA splicing;generation of precursor metabolites and energy
+Q0120		854582	Mito	36540	42251	+	protein_coding	Mitochondrial mRNA maturase; forms a complex with Nam2p to mediate splicing of the bI4 intron of the COB gene; encoded by both exon and intron sequences of partially processed COB mRNA [Source:SGD;Acc:S000007273]				IPR004860;IPR005797;IPR016174;IPR027387;IPR027434	Homing endonuclease, LAGLIDADG;Cytochrome b/b6, N-terminal;Di-haem cytochrome, transmembrane;Cytochrome b/b6-like domain superfamily;Homing endonuclease	GO:0005739;GO:0016020;GO:0003723;GO:0016491;GO:0016787;GO:0004518;GO:0006397;GO:0008380;GO:0006091	mitochondrion;membrane;RNA binding;oxidoreductase activity;hydrolase activity;nuclease activity;mRNA processing;RNA splicing;generation of precursor metabolites and energy
+Q0130	OLI1	854584;24573116	Mito	46723	46953	+	protein_coding	F0-ATP synthase subunit c (ATPase-associated proteolipid); encoded on the mitochondrial genome; mutation confers oligomycin resistance; expression is specifically dependent on the nuclear genes AEP1 and AEP2 [Source:SGD;Acc:S000007274]				IPR000454;IPR002379;IPR020537;IPR035921;IPR038662	ATP synthase, F0 complex, subunit C;V-ATPase proteolipid subunit C-like domain;ATP synthase, F0 complex, subunit C, DCCD-binding site;F/V-ATP synthase subunit C superfamily;F1F0 ATP synthase subunit C superfamily	GO:0005740;GO:0006811;GO:0055086;GO:0055085;GO:0022857;GO:0008289	mitochondrial envelope;ion transport;nucleobase-containing small molecule metabolic process;transmembrane transport;transmembrane transporter activity;lipid binding
+Q0140	VAR1	854586	Mito	48901	50097	+	protein_coding	Mitochondrial ribosomal protein of the small subunit; mitochondrially-encoded; polymorphic in different strains due to variation in number of AAT (asparagine) codons; translated near the mitochondrial inner membrane; may have a role in loss of mitochondrial DNA under stress conditions [Source:SGD;Acc:S000007275]				IPR007980	Ribosomal protein VAR1	GO:0005840;GO:0005198;GO:0003735;GO:0032543	ribosome;structural molecule activity;structural constituent of ribosome;mitochondrial translation
+Q0142	Q0142		Mito	51052	51228	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps dubious open reading frame Q0143 [Source:SGD;Acc:S000007276]						GO:0005739	mitochondrion
+Q0143	Q0143		Mito	51277	51429	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007277]						GO:0005739	mitochondrion
+Q0144			Mito	54109	54438	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007278]						GO:0005739	mitochondrion
+Q0158															
+Q0160	SCEI	854590	Mito	61022	61729	+	protein_coding	I-SceI DNA endonuclease; encoded by the mitochondrial group I intron of the 21S_rRNA gene; mediates gene conversion that propagates the intron into intron-less copies of the 21S_rRNA gene [Source:SGD;Acc:S000007279]				IPR004860;IPR027434	Homing endonuclease, LAGLIDADG;Homing endonuclease	GO:0005739;GO:0016787;GO:0004518;GO:0006397;GO:0006310;GO:0008380	mitochondrion;hydrolase activity;nuclease activity;mRNA processing;DNA recombination;RNA splicing
+Q0182	Q0182		Mito	65770	66174	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007280]						GO:0005739	mitochondrion
+Q0250	COX2	854622	Mito	73758	74513	+	protein_coding	Subunit II of cytochrome c oxidase (Complex IV); Complex IV is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Source:SGD;Acc:S000007281]	ENSG00000198712	MT-CO2	41.8502	IPR001505;IPR002429;IPR008972;IPR011759;IPR014222;IPR034210;IPR036257	Copper centre Cu(A);Cytochrome c oxidase subunit II-like C-terminal;Cupredoxin;Cytochrome C oxidase subunit II, transmembrane domain;Cytochrome c oxidase, subunit II;Cytochrome c oxidase subunit 2, C-terminal;Cytochrome C oxidase subunit II, transmembrane domain superfamily	GO:0043167;GO:0016020;GO:0016491;GO:0006091;GO:0045333;GO:0055086;GO:0022857	ion binding;membrane;oxidoreductase activity;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;transmembrane transporter activity
+Q0255	Q0255	854623	Mito	74495	75984	+	protein_coding	Maturase-like protein [Source:SGD;Acc:S000007282]				IPR003647;IPR004860;IPR010896;IPR027434	Intron encoded nuclease repeat;Homing endonuclease, LAGLIDADG;Nuclease-associated modular DNA-binding 1;Homing endonuclease	GO:0005739;GO:0003723;GO:0003677;GO:0016787;GO:0004518;GO:0008380	mitochondrion;RNA binding;DNA binding;hydrolase activity;nuclease activity;RNA splicing
+Q0275	COX3	24573142;854627	Mito	79213	80022	+	protein_coding	Subunit III of cytochrome c oxidase (Complex IV); Complex IV is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Source:SGD;Acc:S000007283]	ENSG00000198938	MT-CO3	45.2107	IPR000298;IPR013833;IPR024791;IPR033945;IPR035973	Cytochrome c oxidase subunit III-like;Cytochrome c oxidase, subunit III, 4-helical bundle;Cytochrome c oxidase subunit III;Cytochrome c oxidase subunit III domain;Cytochrome c oxidase subunit III-like superfamily	GO:0005739;GO:0016020;GO:0006091;GO:0045333;GO:0055086;GO:0016491;GO:0022857	mitochondrion;membrane;generation of precursor metabolites and energy;cellular respiration;nucleobase-containing small molecule metabolic process;oxidoreductase activity;transmembrane transporter activity
+Q0285															
+Q0297	Q0297		Mito	85554	85709	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene RPM1 [Source:SGD;Acc:S000007284]						GO:0005739	mitochondrion
+RDN18-1															
+RDN18-2															
+RDN25-1															
+RDN25-2															
+RDN37-1															
+RDN37-2															
+RDN5-1															
+RDN5-2															
+RDN5-3															
+RDN5-4															
+RDN5-5															
+RDN5-6															
+RDN58-1															
+RDN58-2															
+RME2															
+RME3															
+RNA170															
+RPR1															
+RUF20															
+RUF21															
+RUF22															
+RUF23															
+RUF5-1															
+RUF5-2															
+SCR1															
+snR10															
+snR11															
+snR128															
+snR13															
+snR14															
+snR161															
+snR17a															
+snR17b															
+snR18															
+snR189															
+snR19															
+snR190															
+snR191															
+snR24															
+snR3															
+snR30															
+snR31															
+snR32															
+snR33															
+snR34															
+snR35															
+snR36															
+snR37															
+snR38															
+snR39															
+snR39B															
+snR4															
+snR40															
+snR41															
+snR42															
+snR43															
+snR44															
+snR45															
+snR46															
+snR47															
+snR48															
+snR49															
+snR5															
+snR50															
+snR51															
+snR52															
+snR53															
+snR54															
+snR55															
+snR56															
+snR57															
+snR58															
+snR59															
+snR6															
+snR60															
+snR61															
+snR62															
+snR63															
+snR64															
+snR65															
+snR66															
+snR67															
+snR68															
+snR69															
+snR7-L															
+snR7-S															
+snR70															
+snR71															
+snR72															
+snR73															
+snR74															
+snR75															
+snR76															
+snR77															
+snR78															
+snR79															
+snR8															
+snR80															
+snR81															
+snR82															
+snR83															
+snR84															
+snR85															
+snR86															
+snR87															
+snR9															
+SRG1															
+tA(AGC)D															
+tA(AGC)F															
+tA(AGC)G															
+tA(AGC)H															
+tA(AGC)J															
+tA(AGC)K1															
+tA(AGC)K2															
+tA(AGC)L															
+tA(AGC)M1															
+tA(AGC)M2															
+tA(AGC)P															
+tA(UGC)A															
+tA(UGC)E															
+tA(UGC)G															
+tA(UGC)L															
+tA(UGC)O															
+tA(UGC)Q															
+tC(GCA)B															
+tC(GCA)G															
+tC(GCA)P1															
+tC(GCA)P2															
+tC(GCA)Q															
+tD(GUC)B															
+tD(GUC)D															
+tD(GUC)G1															
+tD(GUC)G2															
+tD(GUC)I1															
+tD(GUC)I2															
+tD(GUC)J1															
+tD(GUC)J2															
+tD(GUC)J3															
+tD(GUC)J4															
+tD(GUC)K															
+tD(GUC)L1															
+tD(GUC)L2															
+tD(GUC)M															
+tD(GUC)N															
+tD(GUC)O															
+tD(GUC)Q															
+tE(CUC)D															
+tE(CUC)I															
+tE(UUC)B															
+tE(UUC)C															
+tE(UUC)E1															
+tE(UUC)E2															
+tE(UUC)E3															
+tE(UUC)G1															
+tE(UUC)G2															
+tE(UUC)G3															
+tE(UUC)I															
+tE(UUC)J															
+tE(UUC)K															
+tE(UUC)L															
+tE(UUC)M															
+tE(UUC)P															
+tE(UUC)Q															
+tF(GAA)B															
+tF(GAA)D															
+tF(GAA)F															
+tF(GAA)G															
+tF(GAA)H1															
+tF(GAA)H2															
+tF(GAA)M															
+tF(GAA)N															
+tF(GAA)P1															
+tF(GAA)P2															
+tF(GAA)Q															
+tG(CCC)D															
+tG(CCC)O															
+tG(GCC)B															
+tG(GCC)C															
+tG(GCC)D1															
+tG(GCC)D2															
+tG(GCC)E															
+tG(GCC)F1															
+tG(GCC)F2															
+tG(GCC)G1															
+tG(GCC)G2															
+tG(GCC)J1															
+tG(GCC)J2															
+tG(GCC)M															
+tG(GCC)O1															
+tG(GCC)O2															
+tG(GCC)P1															
+tG(GCC)P2															
+tG(UCC)G															
+tG(UCC)N															
+tG(UCC)O															
+tG(UCC)Q															
+tH(GUG)E1															
+tH(GUG)E2															
+tH(GUG)G1															
+tH(GUG)G2															
+tH(GUG)H															
+tH(GUG)K															
+tH(GUG)M															
+tH(GUG)Q															
+tI(AAU)B															
+tI(AAU)D															
+tI(AAU)E1															
+tI(AAU)E2															
+tI(AAU)G															
+tI(AAU)I1															
+tI(AAU)I2															
+tI(AAU)L1															
+tI(AAU)L2															
+tI(AAU)N1															
+tI(AAU)N2															
+tI(AAU)P1															
+tI(AAU)P2															
+tI(GAU)Q															
+tI(UAU)D															
+tI(UAU)L															
+tK(CUU)C															
+tK(CUU)D1															
+tK(CUU)D2															
+tK(CUU)E1															
+tK(CUU)E2															
+tK(CUU)F															
+tK(CUU)G1															
+tK(CUU)G2															
+tK(CUU)G3															
+tK(CUU)I															
+tK(CUU)J															
+tK(CUU)K															
+tK(CUU)M															
+tK(CUU)P															
+tK(UUU)D															
+tK(UUU)G1															
+tK(UUU)G2															
+tK(UUU)K															
+tK(UUU)L															
+tK(UUU)O															
+tK(UUU)P															
+tK(UUU)Q															
+tL(CAA)A															
+tL(CAA)C															
+tL(CAA)D															
+tL(CAA)G1															
+tL(CAA)G2															
+tL(CAA)G3															
+tL(CAA)K															
+tL(CAA)L															
+tL(CAA)M															
+tL(CAA)N															
+tL(GAG)G															
+tL(UAA)B1															
+tL(UAA)B2															
+tL(UAA)D															
+tL(UAA)J															
+tL(UAA)K															
+tL(UAA)L															
+tL(UAA)N															
+tL(UAA)Q															
+tL(UAG)J															
+tL(UAG)L1															
+tL(UAG)L2															
+tM(CAU)C															
+tM(CAU)D															
+tM(CAU)E															
+tM(CAU)J1															
+tM(CAU)J2															
+tM(CAU)J3															
+tM(CAU)M															
+tM(CAU)O1															
+tM(CAU)O2															
+tM(CAU)P															
+tM(CAU)Q1															
+tM(CAU)Q2															
+tN(GUU)C															
+tN(GUU)F															
+tN(GUU)G															
+tN(GUU)K															
+tN(GUU)L															
+tN(GUU)N1															
+tN(GUU)N2															
+tN(GUU)O1															
+tN(GUU)O2															
+tN(GUU)P															
+tN(GUU)Q															
+tP(AGG)C															
+tP(AGG)N															
+tP(UGG)A															
+tP(UGG)F															
+tP(UGG)H															
+tP(UGG)L															
+tP(UGG)M															
+tP(UGG)N1															
+tP(UGG)N2															
+tP(UGG)O1															
+tP(UGG)O2															
+tP(UGG)O3															
+tP(UGG)Q															
+tQ(CUG)M															
+tQ(UUG)B															
+tQ(UUG)C															
+tQ(UUG)D1															
+tQ(UUG)D2															
+tQ(UUG)D3															
+tQ(UUG)E1															
+tQ(UUG)E2															
+tQ(UUG)H															
+tQ(UUG)L															
+tQ(UUG)Q															
+tR(ACG)D															
+tR(ACG)E															
+tR(ACG)J															
+tR(ACG)K															
+tR(ACG)L															
+tR(ACG)O															
+tR(ACG)Q2															
+tR(CCG)L															
+tR(CCU)J															
+tR(UCU)B															
+tR(UCU)D															
+tR(UCU)E															
+tR(UCU)G1															
+tR(UCU)G2															
+tR(UCU)G3															
+tR(UCU)J1															
+tR(UCU)J2															
+tR(UCU)K															
+tR(UCU)M1															
+tR(UCU)M2															
+tR(UCU)Q1															
+tS(AGA)A															
+tS(AGA)B															
+tS(AGA)D1															
+tS(AGA)D2															
+tS(AGA)D3															
+tS(AGA)E															
+tS(AGA)G															
+tS(AGA)H															
+tS(AGA)J															
+tS(AGA)L															
+tS(AGA)M															
+tS(CGA)C															
+tS(GCU)F															
+tS(GCU)O															
+tS(GCU)Q1															
+tS(UGA)E															
+tS(UGA)I															
+tS(UGA)P															
+tS(UGA)Q2															
+tT(AGU)B															
+tT(AGU)C															
+tT(AGU)D															
+tT(AGU)H															
+tT(AGU)I1															
+tT(AGU)I2															
+tT(AGU)J															
+tT(AGU)N1															
+tT(AGU)N2															
+tT(AGU)O1															
+tT(AGU)O2															
+tT(CGU)K															
+tT(UAG)Q2															
+tT(UGU)G1															
+tT(UGU)G2															
+tT(UGU)H															
+tT(UGU)P															
+tT(UGU)Q1															
+tV(AAC)E1															
+tV(AAC)E2															
+tV(AAC)G1															
+tV(AAC)G2															
+tV(AAC)G3															
+tV(AAC)H															
+tV(AAC)J															
+tV(AAC)K1															
+tV(AAC)K2															
+tV(AAC)L															
+tV(AAC)M1															
+tV(AAC)M2															
+tV(AAC)M3															
+tV(AAC)O															
+tV(CAC)D															
+tV(CAC)H															
+tV(UAC)B															
+tV(UAC)D															
+tV(UAC)Q															
+tW(CCA)G1															
+tW(CCA)G2															
+tW(CCA)J															
+tW(CCA)K															
+tW(CCA)M															
+tW(CCA)P															
+tW(UCA)Q															
+tX(XXX)D															
+tX(XXX)L															
+tY(GUA)D															
+tY(GUA)F1															
+tY(GUA)F2															
+tY(GUA)J1															
+tY(GUA)J2															
+tY(GUA)M1															
+tY(GUA)M2															
+tY(GUA)O															
+tY(GUA)Q															
+YAL004W															
+YAL016C-A			I	124755	125069	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORF TPD3/YAL016W [Source:SGD;Acc:S000028728]							
+YAL016C-B															
+YAL019W-A															
+YAL026C-A			I	95386	95823	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF YAL027W and the verified gene DRS2 [Source:SGD;Acc:S000028730]							
+YAL031W-A			I	84669	84977	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORF GIP4/YAL031C [Source:SGD;Acc:S000028731]							
+YAL034C-B															
+YAL037C-A															
+YAL037C-B															
+YAL037W															
+YAL042C-A	YAL042C-A		I	61231	61608	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified ORF ERV46/YAL042W; YAL042C-A is a non-essential gene [Source:SGD;Acc:S000002138]							
+YAL045C															
+YAL047W-A			I	54584	54913	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORF GEM1/YAL048C [Source:SGD;Acc:S000028733]							
+YAL056C-A															
+YAL059C-A			I	36496	36918	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene ECM1/YAL059W [Source:SGD;Acc:S000028734]							
+YAL063C-A															
+YAL064C-A															
+YAL064W															
+YAL066W															
+YAL067W-A															
+YAL068C															
+YAL068W-A															
+YAL069W															
+YAR019W-A															
+YAR020C															
+YAR030C															
+YAR035C-A															
+YAR047C			I	201467	201787	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000000083]							
+YAR053W			I	208367	208663	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000000085]							
+YAR060C															
+YAR061W															
+YAR068W															
+YAR069C		1466534	I	224011	224304	-	protein_coding	Dubious open reading frame; unlikely to encode a protein, based on available experimental and comparative sequence data; YAR069C has a paralog, YHR214C-D, that arose from a segmental duplication [Source:SGD;Acc:S000000092]							
+YAR070C															
+YBL006W-A															
+YBL012C															
+YBL028C															
+YBL029W															
+YBL039C-A															
+YBL039W-B															
+YBL044W															
+YBL053W			II	119335	119709	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000000149]							
+YBL062W			II	105308	105688	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000000158]							
+YBL065W															
+YBL068W-A															
+YBL070C			II	90605	90925	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000000166]							
+YBL071C-B															
+YBL073W															
+YBL077W															
+YBL081W															
+YBL083C															
+YBL086C															
+YBL094C			II	43765	44097	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps uncharacterized ORF YBL095W [Source:SGD;Acc:S000000190]							
+YBL096C															
+YBL100C			II	36989	37303	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps the 5' end of ATP1 [Source:SGD;Acc:S000000196]						GO:0016020	membrane
+YBL100W-C															
+YBL107W-A															
+YBL108C-A															
+YBL108W															
+YBL109W															
+YBL112C															
+YBL113W-A			II	646	1128	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; identified by gene-trapping, microarray-based expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028599]							
+YBR012C															
+YBR013C															
+YBR032W															
+YBR051W			II	337988	338338	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the REG2/YBR050C regulatory subunit of the Glc7p type-1 protein phosphatase [Source:SGD;Acc:S000000255]							
+YBR056C-B															
+YBR056W-A															
+YBR064W			II	367763	368191	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF YBR063C [Source:SGD;Acc:S000000268]							
+YBR072C-A															
+YBR076C-A			II	391351	391617	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene ECM8; identified by fungal homology and RT-PCR [Source:SGD;Acc:S000028533]							
+YBR089W			II	425183	425782	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps the verified gene POL30 [Source:SGD;Acc:S000000293]							
+YBR096W															
+YBR099C			II	442924	443307	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the verified gene MMS4 [Source:SGD;Acc:S000000303]							
+YBR103C-A															
+YBR113W			II	465566	466048	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene CYC8 [Source:SGD;Acc:S000000317]							
+YBR116C			II	474199	474726	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene TKL2 [Source:SGD;Acc:S000000320]							
+YBR121C-A															
+YBR126W-B															
+YBR131C-A															
+YBR134W															
+YBR141W-A															
+YBR144C															
+YBR157C															
+YBR174C															
+YBR178W															
+YBR182C-A															
+YBR184W															
+YBR190W															
+YBR191W-A															
+YBR196C-B															
+YBR197C															
+YBR201C-A															
+YBR206W															
+YBR221W-A															
+YBR223W-A															
+YBR224W			II	670125	670640	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene TDP1 [Source:SGD;Acc:S000000428]							
+YBR225W															
+YBR226C															
+YBR230W-A															
+YBR232C			II	683373	683732	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000000436]							
+YBR259W															
+YBR266C															
+YBR277C															
+YBR285W															
+YBR296C-A															
+YBR298C-A															
+YBR300C			II	808600	809097	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene YBR301W; YBR300C is not an essential gene [Source:SGD;Acc:S000000504]							
+YCL007C															
+YCL012C															
+YCL022C															
+YCL023C															
+YCL041C															
+YCL042W															
+YCL046W															
+YCL054W-A															
+YCL065W			III	13751	14119	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps HMLALPHA1 [Source:SGD;Acc:S000000570]							
+YCL074W															
+YCL075W															
+YCL076W															
+YCR001W															
+YCR006C															
+YCR013C															
+YCR016W															
+YCR022C															
+YCR025C															
+YCR038W-A															
+YCR043C															
+YCR045W-A															
+YCR047W-A															
+YCR049C															
+YCR050C															
+YCR064C															
+YCR081C-A			III	258415	258651	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps with SRB8/YCR081W; identified by gene-trapping, microarray expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028609]							
+YCR085W															
+YCR087W															
+YCR090C															
+YCR095W-A															
+YCR097W-A			III	294439	294705	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; identified by homology to a hemiascomycetous yeast protein [Source:SGD;Acc:S000007632]							
+YCR099C															
+YCR100C															
+YCR102W-A			III	306735	306932	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007231]				IPR001142	Yeast membrane protein DUP/COS	GO:0016020;GO:0031410	membrane;cytoplasmic vesicle
+YCR107W															
+YCR108C															
+YDL007C-A															
+YDL011C			IV	432308	432631	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the uncharacterized ORF YDL010W [Source:SGD;Acc:S000002169]							
+YDL016C															
+YDL022C-A															
+YDL023C															
+YDL025W-A															
+YDL026W			IV	404749	405060	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002184]							
+YDL032W															
+YDL034W															
+YDL037C															
+YDL041W			IV	378102	378455	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene SIR2/YDL042C [Source:SGD;Acc:S000002199]							
+YDL050C			IV	364446	364817	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002208]							
+YDL062W															
+YDL068W			IV	333500	333829	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002226]							
+YDL071C															
+YDL086C-A															
+YDL094C			IV	289572	290081	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verfied gene PMT5/YDL093W; YDL094C is not essential [Source:SGD;Acc:S000002252]							
+YDL096C															
+YDL114W-A															
+YDL118W															
+YDL151C															
+YDL152W			IV	182822	183187	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF SAS10/YDL153C, a component of the small ribosomal subunit processosome [Source:SGD;Acc:S000002311]							
+YDL158C															
+YDL159W-A															
+YDL162C															
+YDL163W															
+YDL169C															
+YDL172C			IV	148607	149086	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002331]							
+YDL176W															
+YDL177C															
+YDL185C-A															
+YDL186W															
+YDL187C															
+YDL196W			IV	106741	107070	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; open reading frame is located in promoter region of essential gene SEC31 [Source:SGD;Acc:S000002355]							
+YDL221W															
+YDL228C															
+YDL240C-A															
+YDL241W															
+YDL242W															
+YDL243C															
+YDL247W-A															
+YDR003W-A															
+YDR008C			IV	462252	462602	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps TRP1/YDR007W on opposite strand [Source:SGD;Acc:S000002415]							
+YDR010C															
+YDR015C															
+YDR024W															
+YDR042C															
+YDR048C			IV	553084	553398	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORF VMS1/YDR049W [Source:SGD;Acc:S000002455]							
+YDR068W															
+YDR094W															
+YDR095C															
+YDR102C															
+YDR112W			IV	679544	679852	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ALT2/YDR111C; null mutant displays increased levels of spontaneous Rad52p foci [Source:SGD;Acc:S000002519]							
+YDR114C															
+YDR118W-A															
+YDR124W															
+YDR133C			IV	720962	721297	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps YDR134C [Source:SGD;Acc:S000002540]							
+YDR136C			IV	727711	728283	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; 4% of ORF overlaps the verified gene RGP1; deletion causes a vacuolar protein sorting defect [Source:SGD;Acc:S000002543]							
+YDR149C			IV	755555	756262	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene NUM1/YDR150W; null mutation blocks anaerobic growth [Source:SGD;Acc:S000002556]							
+YDR154C															
+YDR157W															
+YDR169C-A															
+YDR183C-A			IV	830397	830654	-	protein_coding	Dubious open reading frame unlikely to encode a functional protein; identified by fungal homology and RT-PCR [Source:SGD;Acc:S000028540]							
+YDR187C			IV	836228	836746	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified, essential ORF CCT6/YDR188W [Source:SGD;Acc:S000002595]							
+YDR193W			IV	844554	844952	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002601]							
+YDR194W-A															
+YDR199W			IV	854175	854540	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene VPS64/YDR200C; computationally predicted to have thiol-disulfide oxidoreductase activity [Source:SGD;Acc:S000002607]							
+YDR203W															
+YDR220C															
+YDR230W															
+YDR241W			IV	945151	945438	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; 1% of ORF overlaps the verified gene SNU56; diploid mutant displays a weak budding pattern phenotype in a systematic assay [Source:SGD;Acc:S000002649]							
+YDR246W-A															
+YDR249C															
+YDR250C			IV	960086	960361	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002658]							
+YDR269C			IV	1005665	1005988	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002677]							
+YDR271C															
+YDR274C															
+YDR277C															
+YDR286C															
+YDR290W	YDR290W		IV	1039370	1039699	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF RTT103 [Source:SGD;Acc:S000002698]							
+YDR320W-B															
+YDR327W															
+YDR344C															
+YDR354C-A															
+YDR355C			IV	1186067	1186369	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified essential ORF SPC110/YDR356W [Source:SGD;Acc:S000002763]							
+YDR360W															
+YDR371C-A															
+YDR396W			IV	1266295	1266795	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; extensively overlaps essential NCB2 gene encoding the beta subunit of the NC2 dimeric histone-fold complex [Source:SGD;Acc:S000002804]							
+YDR401W			IV	1272223	1272786	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002809]							
+YDR406W-A	YDR406W-A		IV	1283799	1284044	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; identified by fungal homology and RT-PCR [Source:SGD;Acc:S000028543]							
+YDR413C			IV	1294836	1295411	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the essential uncharacterized ORF YDR412W that is implicated in rRNA processing [Source:SGD;Acc:S000002821]							
+YDR417C			IV	1301555	1301926	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF RPL12B/YDR418W [Source:SGD;Acc:S000002825]							
+YDR426C															
+YDR431W			IV	1328390	1328701	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002839]							
+YDR433W															
+YDR442W			IV	1345647	1346039	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002850]							
+YDR445C			IV	1352182	1352589	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002853]							
+YDR455C															
+YDR461C-A															
+YDR464C-A															
+YDR467C			IV	1397583	1397909	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002875]							
+YDR475C															
+YDR491C			IV	1434500	1434991	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002899]							
+YDR509W			IV	1468226	1468573	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002917]							
+YDR510C-A			IV	1469695	1469811	-	protein_coding	Dubious open reading frame unlikely to encode a functional protein; identified by gene-trapping, microarray-based expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028615]							
+YDR524C-A															
+YDR524W-C															
+YDR525W															
+YDR526C			IV	1491075	1491545	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000002934]							
+YDR535C															
+YDR537C															
+YDR542W															
+YDR543C															
+YDR544C															
+YDR545C-A			IV	1530863	1531342	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the verified ORF YRF1-1/YDR545W [Source:SGD;Acc:S000028617]							
+YEL008C-A															
+YEL008W															
+YEL009C-A															
+YEL010W															
+YEL018C-A			V	121455	121988	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps ORF EAF5/YEL018W [Source:SGD;Acc:S000028742]							
+YEL020C-B															
+YEL023C															
+YEL028W															
+YEL030C-A															
+YEL032C-A															
+YEL034C-A			V	85613	86215	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps HYP2/YEL034W, a verified gene that encodes eiF-5A [Source:SGD;Acc:S000028743]							
+YEL035C															
+YEL045C			V	68840	69265	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; deletion gives MMS sensitivity, growth defect under alkaline conditions, less than optimal growth upon citric acid stress [Source:SGD;Acc:S000000771]						GO:0043167	ion binding
+YEL050W-A			V	59549	59740	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; identified by fungal homology and RT-PCR [Source:SGD;Acc:S000028545]							
+YEL053W-A			V	52908	53255	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene RPL12A/YEL054C [Source:SGD;Acc:S000028744]							
+YEL057C															
+YEL059W	HHY1		V	42652	42960	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; mutant is hypersensitive to hygromycin B indicative of defects in vacuolar trafficking [Source:SGD;Acc:S000000785]							
+YEL067C															
+YEL068C															
+YEL073C															
+YEL074W															
+YEL075C															
+YEL075W-A															
+YEL076C															
+YEL076C-A															
+YEL077W-A															
+YER006C-A															
+YER023C-A															
+YER034W															
+YER046W-A															
+YER066C-A															
+YER067C-A			V	292240	292563	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORF RGI1/YER067W [Source:SGD;Acc:S000028748]							
+YER068C-A			V	295301	295732	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF ARG5,6/YER069W [Source:SGD;Acc:S000028749]							
+YER076C															
+YER076W-A			V	313390	313737	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF YER076C [Source:SGD;Acc:S000028750]							
+YER078W-A															
+YER079C-A			V	319902	320240	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORF AIM9/YER080W [Source:SGD;Acc:S000028751]							
+YER079W															
+YER084W-A			V	327598	328110	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps uncharacterized ORF YER085C [Source:SGD;Acc:S000028752]							
+YER085C															
+YER087C-A															
+YER088C-A															
+YER088W-B															
+YER090C-A															
+YER091C-A															
+YER097W															
+YER107W-A			V	374394	374714	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified ORF GLE2/YER107C [Source:SGD;Acc:S000028755]							
+YER119C-A															
+YER121W															
+YER133W-A															
+YER135C															
+YER137W-A															
+YER138W-A															
+YER145C-A															
+YER147C-A			V	465203	465613	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF SPT15/YER148W [Source:SGD;Acc:S000028759]							
+YER148W-A			V	466185	466763	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps ORF PEA2/YER149C [Source:SGD;Acc:S000028760]							
+YER152W-A															
+YER156C									ENSG00000139637	C12orf10	39.6277				
+YER158C															
+YER158W-A			V	491487	491702	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; identified by gene-trapping, microarray-based expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028624]							
+YER165C-A			V	512627	512983	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene DNF1/YER166W [Source:SGD;Acc:S000028762]							
+YER172C-A															
+YER175W-A															
+YER186C															
+YER187W															
+YER188C-A															
+YER188W															
+YER189W															
+YER190C-A			V	574804	575379	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the verified ORF YRF1-2/YER190W; identified by gene-trapping, expression analysis, and homology [Source:SGD;Acc:S000028626]							
+YFL012W															
+YFL012W-A	YFL012W-A		VI	109810	110184	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene IES1/YFL013C [Source:SGD;Acc:S000002964]							
+YFL013W-A			VI	107799	108602	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps IES1/YFL013C; identified by gene-trapping, microarray expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028628]							
+YFL015W-A			VI	106415	106732	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF YFL015C [Source:SGD;Acc:S000028765]							
+YFL019C															
+YFL021C-A			VI	95761	96615	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF GAT1/YFL021W [Source:SGD;Acc:S000028766]							
+YFL031C-A															
+YFL032W			VI	74872	75192	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene HAC1/YFL031W; YFL032W is not an essential gene [Source:SGD;Acc:S000001862]							
+YFL041W-A															
+YFL056C															
+YFL063W															
+YFL064C															
+YFL065C															
+YFR009W-A															
+YFR010W-A			VI	166728	166916	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the uncharacterized gene YFR011C; identified by expression profiling and mass spectrometry [Source:SGD;Acc:S000028824]							
+YFR012W-A															
+YFR020W															
+YFR026C															
+YFR034W-A															
+YFR036W-A			VI	227451	228101	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps verified ORF RSC8/YFR037C [Source:SGD;Acc:S000028767]							
+YFR052C-A			VI	253429	253734	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF HXK1/YFR053C [Source:SGD;Acc:S000028768]							
+YFR054C															
+YFR056C			VI	263957	264325	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized gene YFR055W [Source:SGD;Acc:S000001951]							
+YGL006W-A															
+YGL007C-A															
+YGL007W															
+YGL014C-A															
+YGL015C															
+YGL024W	YGL024W		VII	449788	450123	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially/completely overlaps the verified ORF PGD1/YGL025C [Source:SGD;Acc:S000002992]							
+YGL041C			VII	419022	419225	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003009]							
+YGL042C			VII	418288	418593	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; deletion mutation blocks replication of Brome mosaic virus in S. cerevisiae, but this is likely due to effects on the overlapping gene DST1 [Source:SGD;Acc:S000003010]							
+YGL052W															
+YGL063C-A															
+YGL069C															
+YGL072C			VII	371003	371362	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene HSF1; null mutant displays increased resistance to antifungal agents gliotoxin, cycloheximide and H2O2 [Source:SGD;Acc:S000003040]							
+YGL074C			VII	368596	368922	-	protein_coding	Dubious open reading frame unlikely to encode a functional protein; overlaps 5' end of essential HSF1 gene encoding heat shock transcription factor [Source:SGD;Acc:S000003042]							
+YGL102C															
+YGL109W															
+YGL117W															
+YGL118C															
+YGL123C-A															
+YGL132W															
+YGL138C															
+YGL152C			VII	216692	217369	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF PEX14/YGL153W [Source:SGD;Acc:S000003120]							
+YGL165C			VII	191398	191976	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF CUP2/YGL166W [Source:SGD;Acc:S000003133]							
+YGL176C															
+YGL177W															
+YGL182C															
+YGL188C															
+YGL188C-A															
+YGL193C															
+YGL199C															
+YGL214W			VII	90010	90495	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; deletion mutation phenotype is likely due to the overlapping verified ORF SKI8/YGL213C [Source:SGD;Acc:S000003182]							
+YGL217C															
+YGL218W															
+YGL235W															
+YGL239C			VII	49431	49745	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene CSE1 [Source:SGD;Acc:S000003208]							
+YGL258W-A															
+YGL260W															
+YGL261C															
+YGL262W															
+YGR011W															
+YGR018C															
+YGR021W															
+YGR022C															
+YGR025W															
+YGR035C															
+YGR035W-A															
+YGR039W															
+YGR050C															
+YGR051C															
+YGR053C															
+YGR064W															
+YGR068W-A															
+YGR069W			VII	627083	627418	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003301]							
+YGR073C			VII	635615	635986	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; extensively overlaps essential SMD1 gene encoding a U6 snRNP protein [Source:SGD;Acc:S000003305]							
+YGR079W															
+YGR107W															
+YGR111W															
+YGR114C			VII	720265	720654	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; open reading frame overlaps 5' end of the essential gene SPT6 [Source:SGD;Acc:S000003346]							
+YGR115C			VII	720372	721151	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified and essential ORF SPT6/YGR115C [Source:SGD;Acc:S000003347]							
+YGR121W-A															
+YGR122C-A															
+YGR126W															
+YGR127W															
+YGR137W			VII	762888	763262	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003369]							
+YGR139W															
+YGR146C															
+YGR151C			VII	794655	794990	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps almost completely with the verified ORF RSR1/BUD1/YGR152C; relative distribution to the nucleus increases upon DNA replication stress [Source:SGD;Acc:S000003383]						GO:0005737;GO:0005634	cytoplasm;nucleus
+YGR153W															
+YGR160W			VII	807073	807684	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003392]							
+YGR161W-C															
+YGR164W															
+YGR174C															
+YGR174W-A															
+YGR176W															
+YGR182C															
+YGR187C															
+YGR190C															
+YGR204C-A															
+YGR219W			VII	936035	936376	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF MRPL9/YGR220C [Source:SGD;Acc:S000003451]						GO:0005737;GO:0005634	cytoplasm;nucleus
+YGR226C			VII	946792	947001	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; overlaps significantly with a verified ORF, AMA1/YGR225W [Source:SGD;Acc:S000003458]							
+YGR228W			VII	949365	949709	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF SMI1/YGR229C [Source:SGD;Acc:S000003460]							
+YGR237C															
+YGR240C-A															
+YGR242W			VII	976415	976723	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF YAP1802/YGR241C [Source:SGD;Acc:S000003474]							
+YGR259C															
+YGR265W			VII	1021648	1022058	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF MES1/YGR264C, which encodes methionyl-tRNA synthetase [Source:SGD;Acc:S000003497]							
+YGR269W			VII	1026636	1026962	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF HUA1/YGR268C [Source:SGD;Acc:S000003501]						GO:0005737;GO:0005634	cytoplasm;nucleus
+YGR270C-A			VII	1027382	1027600	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the verified ORF YTA7/YGR270W [Source:SGD;Acc:S000028641]							
+YGR273C															
+YGR290W			VII	1075482	1075925	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; putative HLH protein; partially overlaps the verified ORF MAL11/YGR289C (a high-affinity maltose transporter) [Source:SGD;Acc:S000003522]							
+YGR291C															
+YGR293C			VII	1079885	1080346	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF YGR294W [Source:SGD;Acc:S000003525]							
+YGR296C-A			VII	1088870	1089445	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps TEL07R [Source:SGD;Acc:S000028642]							
+YGR296C-B		4594642	VII	1089746	1090228	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; contained completely within TEL07R [Source:SGD;Acc:S000028643]							
+YHL002C-A			VIII	102587	103075	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF HSE1/YHL002W [Source:SGD;Acc:S000028770]							
+YHL006W-A															
+YHL013C															
+YHL015W-A															
+YHL019W-A			VIII	67711	68304	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene APM2/YHL019C [Source:SGD;Acc:S000028772]							
+YHL030W-A															
+YHL034W-A															
+YHL041W															
+YHL046C															
+YHL046W-A															
+YHL048C-A															
+YHL049C															
+YHL050W-A			VIII	811	1293	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; identified by gene-trapping, microarray-based expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028644]							
+YHR022C-A															
+YHR028W-A															
+YHR032C-A															
+YHR032W-A															
+YHR049C-A			VIII	207234	207530	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003532]							
+YHR050W-A															
+YHR052W-A			VIII	212510	212704	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps CUP1-1 [Source:SGD;Acc:S000028647]							
+YHR054C															
+YHR054W-A			VIII	214508	214702	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps CUP1-2 [Source:SGD;Acc:S000028648]							
+YHR056W-A			VIII	217406	217840	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps ORF RSC30/YHR056C [Source:SGD;Acc:S000028777]							
+YHR063W-A			VIII	225442	225777	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps ORF SSZ1/YHR064C [Source:SGD;Acc:S000028778]							
+YHR069C-A			VIII	234874	235236	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps ORF TRM5/YHR070W [Source:SGD;Acc:S000028779]							
+YHR070C-A															
+YHR071C-A															
+YHR073C-B															
+YHR073W-A															
+YHR086W-A															
+YHR093W															
+YHR095W															
+YHR125W															
+YHR131W-A															
+YHR137C-A															
+YHR139C-A															
+YHR145C			VIII	388981	389337	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000001188]							
+YHR165W-A															
+YHR173C															
+YHR180C-B															
+YHR180W-A			VIII	466932	467114	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps dubious ORF YHR180C-B and long terminal repeat YHRCsigma3 [Source:SGD;Acc:S000028555]							
+YHR182C-A															
+YHR182W															
+YHR193C-A															
+YHR212C															
+YHR212W-A															
+YHR213W															
+YHR213W-B															
+YHR214C-E															
+YHR214W-A															
+YHR217C															
+YHR218W-A															
+YHR219C-A			VIII	561199	561681	-	protein_coding	Dubious open reading frame unlikely to encode a functional protein; identified by gene-trapping, microarray-based expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028655]							
+YHR219W															
+YIL002W-A															
+YIL012W															
+YIL014C-A															
+YIL020C-A			IX	313713	314051	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps origin of replication ARS918, partially overlaps ORF RPB3/YIL021W [Source:SGD;Acc:S000028787]							
+YIL021C-A															
+YIL024C															
+YIL025C															
+YIL028W															
+YIL029W-A															
+YIL030W-A			IX	295565	295903	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORF ULP2/YIL031W [Source:SGD;Acc:S000028789]							
+YIL032C															
+YIL047C-A															
+YIL055C															
+YIL058W															
+YIL059C															
+YIL066W-A			IX	237366	237809	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps ORF YIL067C [Source:SGD;Acc:S000028791]							
+YIL068W-A															
+YIL071W-A			IX	228550	229026	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps ORF PCI8/YIL071C [Source:SGD;Acc:S000028793]							
+YIL077C															
+YIL086C															
+YIL100C-A			IX	177343	177681	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000028794]							
+YIL100W															
+YIL102C															
+YIL105W-A															
+YIL115W-A															
+YIL141W															
+YIL142C-A															
+YIL152W															
+YIL156W-A			IX	47292	47693	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF COA1/YIL157C [Source:SGD;Acc:S000028797]							
+YIL156W-B															
+YIL161W															
+YIL163C															
+YIL170W															
+YIL171W															
+YIL171W-A			IX	18260	18712	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF IMA3/YIL172C [Source:SGD;Acc:S000028798]							
+YIL174W															
+YIL175W															
+YIL176C															
+YIL177W-A			IX	846	1328	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the uncharacterized gene YIL177C [Source:SGD;Acc:S000028658]							
+YIR017W-A			IX	383566	384165	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000028799]							
+YIR018C-A															
+YIR020C															
+YIR020C-B															
+YIR020W-A															
+YIR023C-A			IX	402383	402706	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps ORF DAL81/YIR023W [Source:SGD;Acc:S000028801]							
+YIR030C															
+YIR030W-A															
+YIR036W-A			IX	422635	423036	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF IRC24/YIR036C [Source:SGD;Acc:S000028803]							
+YIR040C															
+YIR041W															
+YJL009W															
+YJL015C															
+YJL020W-A															
+YJL022W															
+YJL026C-A															
+YJL027C															
+YJL032W															
+YJL043W															
+YJL047C-A															
+YJL049W															
+YJL052C-A															
+YJL064W															
+YJL067W			X	314084	314434	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003603]							
+YJL075C			X	298460	298876	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; 85% of ORF overlaps the verified gene NET1; null mutant is sensitive to sorbate [Source:SGD;Acc:S000003611]							
+YJL077W-A															
+YJL077W-B															
+YJL086C			X	272478	272846	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified genes YJL085W/EXO70 and YJL087C/TRL1 [Source:SGD;Acc:S000003622]							
+YJL119C															
+YJL120W			X	191022	191345	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene YJL121C/RPE1; deletion confers sensitivity to GSAO [Source:SGD;Acc:S000003656]							
+YJL127W-A															
+YJL135W															
+YJL136W-A															
+YJL142C			X	147819	148211	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene YJL141C; null mutant displays increased levels of spontaneous Rad52p foci [Source:SGD;Acc:S000003678]						GO:0006310;GO:0006281;GO:0006974	DNA recombination;DNA repair;cellular response to DNA damage stimulus
+YJL150W															
+YJL152W			X	136174	136533	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003688]							
+YJL156W-A			X	126604	126825	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007613]							
+YJL169W															
+YJL175W			X	94049	94561	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; deletion confers resistance to cisplatin, hypersensitivity to 5-fluorouracil, and growth defect at high pH with high calcium; overlaps gene for SWI3 transcription factor [Source:SGD;Acc:S000003711]							
+YJL181W															
+YJL182C			X	85435	85752	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps uncharacterized ORF YJL181W [Source:SGD;Acc:S000003718]							
+YJL188C															
+YJL195C			X	69241	69942	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene YJL194W/CDC6 [Source:SGD;Acc:S000003731]							
+YJL197C-A															
+YJL199C															
+YJL202C			X	53943	54290	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps 3' end of essential PRP21 gene encoding a subunit of the SF3a splicing factor complex [Source:SGD;Acc:S000003738]							
+YJL211C															
+YJL215C															
+YJL220W			X	18243	18695	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene YJL221C/FSP2 [Source:SGD;Acc:S000003756]							
+YJL222W-A															
+YJL222W-B															
+YJL223C															
+YJL225W-A			X	829	1311	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the uncharacterized gene YJL225C [Source:SGD;Acc:S000028665]							
+YJR011C															
+YJR018W			X	466786	467148	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003779]							
+YJR020W															
+YJR037W															
+YJR038C			X	503710	504072	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003799]							
+YJR039W															
+YJR056C															
+YJR061W															
+YJR071W															
+YJR079W															
+YJR083C															
+YJR087W															
+YJR114W															
+YJR115W															
+YJR128W															
+YJR140W-A															
+YJR141W															
+YJR151W-A															
+YJR155W															
+YJR157W															
+YJR162C															
+YKL030W															
+YKL031W			XI	382072	382485	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species [Source:SGD;Acc:S000001514]							
+YKL036C															
+YKL053W															
+YKL063C															
+YKL066W															
+YKL068W-A															
+YKL075C															
+YKL076C			XI	292838	293221	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; 69% of ORF overlaps the uncharacterized ORF YKL075C [Source:SGD;Acc:S000001559]						GO:0006974	cellular response to DNA damage stimulus
+YKL077W															
+YKL083W															
+YKL097C															
+YKL098W															
+YKL100W-A															
+YKL102C															
+YKL106C-A															
+YKL111C															
+YKL115C															
+YKL118W															
+YKL123W															
+YKL131W															
+YKL136W															
+YKL145W-A			XI	174958	175050	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the verified essential gene RPT1; identified by expression profiling and mass spectrometry [Source:SGD;Acc:S000028841]							
+YKL147C															
+YKL153W															
+YKL156C-A															
+YKL162C-A															
+YKL165C-A			XI	135790	136023	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007617]							
+YKL169C															
+YKL177W															
+YKL202W															
+YKL223W															
+YKL224C															
+YKL225W															
+YKR011C															
+YKR012C															
+YKR015C															
+YKR032W															
+YKR033C															
+YKR035C															
+YKR040C															
+YKR047W															
+YKR073C															
+YKR075W-A			XI	580212	580481	+	protein_coding	Dubious open reading frame unlikely to encode a protein; completely overlaps the uncharacterized gene YKR075C; identified by gene-trapping, microarray-based expression analysis, and genome-wide homology searching [Source:SGD;Acc:S000028669]							
+YKR077W															
+YLL016W															
+YLL017W															
+YLL019W-A															
+YLL020C			XII	105556	105861	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene KNS1 [Source:SGD;Acc:S000003943]							
+YLL025W															
+YLL037W			XII	66562	66942	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; overlaps 3' end of essential PRP19 gene encoding an RNA splicing factor [Source:SGD;Acc:S000003960]							
+YLL044W															
+YLL047W			XII	46672	47055	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene RNP1 [Source:SGD;Acc:S000003970]							
+YLL059C			XII	22474	22980	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000003982]							
+YLL064C															
+YLL065W															
+YLL066W-A		850476	XII	6486	6968	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the uncharacterized ORF YLL066C [Source:SGD;Acc:S000028671]							
+YLL066W-B															
+YLL067C															
+YLL067W-A		850476	XII	843	1325	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps YLL067C [Source:SGD;Acc:S000028673]							
+YLR012C															
+YLR030W															
+YLR031W															
+YLR041W															
+YLR049C															
+YLR053C															
+YLR062C															
+YLR076C															
+YLR101C			XII	342566	342961	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified, essential ORF ERG27/YLR100W [Source:SGD;Acc:S000004091]							
+YLR112W															
+YLR120W-A															
+YLR123C			XII	391078	391407	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the dubious ORF YLR122C; contains characteristic aminoacyl-tRNA motif [Source:SGD;Acc:S000004113]							
+YLR124W															
+YLR125W															
+YLR140W			XII	423474	423800	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; overlaps essential RRN5 gene which encodes a member of the UAF transcription factor involved in transcription of rDNA by RNA polymerase I [Source:SGD;Acc:S000004130]							
+YLR146W-A															
+YLR149C-A															
+YLR154C-G															
+YLR154C-H															
+YLR154W-A															
+YLR154W-B															
+YLR154W-E															
+YLR154W-F															
+YLR156C-A															
+YLR156W															
+YLR157C-C															
+YLR157W-D															
+YLR157W-E															
+YLR159C-A															
+YLR159W															
+YLR161W															
+YLR162W-A															
+YLR163W-A															
+YLR169W			XII	500335	500688	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004159]							
+YLR171W			XII	500733	501122	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004161]							
+YLR184W															
+YLR198C			XII	547286	547645	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene SIK1/YLR197W [Source:SGD;Acc:S000004188]							
+YLR202C															
+YLR217W															
+YLR222C-A															
+YLR230W			XII	604574	604879	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; overlaps 5' end of essential CDC42/YLR229C gene which encodes a small Rho-like GTPase essential for establishment and maintenance of cell polarity [Source:SGD;Acc:S000004220]							
+YLR232W															
+YLR235C															
+YLR236C															
+YLR252W															
+YLR255C															
+YLR261C															
+YLR264C-A															
+YLR267W															
+YLR269C			XII	680866	681216	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004259]							
+YLR279W			XII	704309	704698	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004269]							
+YLR280C															
+YLR282C															
+YLR285C-A															
+YLR286W-A															
+YLR294C			XII	721701	722030	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene ATP14 [Source:SGD;Acc:S000004285]						GO:0006091;GO:0045333	generation of precursor metabolites and energy;cellular respiration
+YLR299C-A															
+YLR307C-A															
+YLR311C			XII	757265	757612	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004302]							
+YLR313C															
+YLR317W															
+YLR322W			XII	777628	777942	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; 75% of ORF overlaps the verified gene SFH1; deletion causes a vacuolar protein sorting defect and blocks anaerobic growth [Source:SGD;Acc:S000004314]							
+YLR331C															
+YLR334C			XII	796698	797078	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps a stand-alone long terminal repeat sequence whose presence indicates a retrotransposition event occurred here [Source:SGD;Acc:S000004326]							
+YLR338W			XII	804346	805203	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF VRP1/YLR337C [Source:SGD;Acc:S000004330]							
+YLR339C			XII	805784	806335	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the essential gene RPP0 [Source:SGD;Acc:S000004331]							
+YLR347W-A															
+YLR349W															
+YLR358C															
+YLR361C-A															
+YLR364C-A															
+YLR365W															
+YLR366W															
+YLR374C			XII	871453	871842	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF STP3/YLR375W [Source:SGD;Acc:S000004366]							
+YLR379W			XII	876922	877296	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the essential ORF SEC61/YLR378C [Source:SGD;Acc:S000004371]							
+YLR399W-A															
+YLR400W			XII	922063	922536	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004392]							
+YLR402W			XII	924889	925080	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004394]							
+YLR406C-A															
+YLR412C-A															
+YLR416C															
+YLR428C															
+YLR434C															
+YLR437C-A															
+YLR444C			XII	1023686	1023988	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004436]							
+YLR458W			XII	1056455	1056835	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps 5' end of essential NBP1/YLR457C gene required for mitosis [Source:SGD;Acc:S000004450]							
+YLR462W															
+YLR463C															
+YLR464W															
+YLR465C															
+YLR466C-A			XII	1070387	1070869	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF YRF1-4/YLR466W [Source:SGD;Acc:S000028685]							
+YLR466C-B															
+YLR467C-A			XII	1077050	1077532	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF YRF1-4/YLR466W [Source:SGD;Acc:S000028687]							
+YML002W															
+YML003W															
+YML009C-A	YML009C-A		XIII	250675	251001	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORFs SPT5/YML010W and YML009W-B [Source:SGD;Acc:S000004469]							
+YML009W-B	YML009W-B		XIII	250435	250911	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; deletion mutation confers an increase in Ty1 transposition [Source:SGD;Acc:S000004471]							
+YML012C-A															
+YML020W															
+YML031C-A															
+YML034C-A															
+YML037C															
+YML047W-A	YML047W-A		XIII	179893	180258	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps ORF PRM6/YML047C [Source:SGD;Acc:S000004512]							
+YML050W															
+YML053C															
+YML054C-A															
+YML057C-A	YML057C-A		XIII	160023	160412	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene CMP2/YML057W [Source:SGD;Acc:S000004522]							
+YML079W															
+YML083C															
+YML084W															
+YML089C															
+YML090W			XIII	90744	91130	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the dubious ORF YML089C; exhibits growth defect on a non-fermentable (respiratory) carbon source [Source:SGD;Acc:S000004555]							
+YML094C-A															
+YML099W-A	YML099W-A		XIII	74229	74558	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF ARG81/YML099C [Source:SGD;Acc:S000004567]							
+YML100W-A															
+YML101C-A	YML101C-A		XIII	69409	69726	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004569]							
+YML108W															
+YML116W-A															
+YML119W															
+YML122C															
+YML133W-A			XIII	1610	2185	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the uncharacterized ORF YML133C [Source:SGD;Acc:S000028689]							
+YML133W-B			XIII	827	1309	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the uncharacterized ORF YML133C [Source:SGD;Acc:S000028690]							
+YMR001C-A															
+YMR007W															
+YMR013C-A			XIII	296471	296620	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the verified ORF SEC59/YML013C [Source:SGD;Acc:S000028847]							
+YMR013W-A															
+YMR031W-A															
+YMR046W-A			XIII	362702	362830	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000007248]							
+YMR052C-A			XIII	380069	380434	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004655]							
+YMR057C															
+YMR075C-A															
+YMR082C															
+YMR086C-A															
+YMR103C															
+YMR105W-A															
+YMR107W															
+YMR119W-A			XIII	506996	507370	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps 3' end of ORF ASI1/YMR119W [Source:SGD;Acc:S000004726]							
+YMR122C															
+YMR124W															
+YMR135W-A															
+YMR141C															
+YMR141W-A			XIII	550911	551135	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene RPL13B/YMR142C [Source:SGD;Acc:S000028575]							
+YMR144W															
+YMR147W															
+YMR151W			XIII	562506	562943	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; 5% of ORF overlaps the verified gene IMP1 [Source:SGD;Acc:S000004759]							
+YMR153C-A															
+YMR158C-A															
+YMR158W-B	YMR158W-B		XIII	574471	574791	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene ATG16/YMR159C [Source:SGD;Acc:S000004768]							
+YMR160W															
+YMR172C-A			XIII	607828	608211	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps 3' end of ORF HOT1/YMR172W [Source:SGD;Acc:S000004782]							
+YMR173W-A			XIII	608897	610081	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene DDR48/YML173W [Source:SGD;Acc:S000004785]							
+YMR175W-A															
+YMR178W															
+YMR181C															
+YMR193C-A			XIII	651072	651458	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000004805]							
+YMR194C-A															
+YMR206W															
+YMR230W-A															
+YMR242W-A															
+YMR245W															
+YMR247W-A															
+YMR252C															
+YMR265C															
+YMR272W-A															
+YMR272W-B															
+YMR290W-A			XIII	851422	851769	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps 5' end of essential HAS1/YMR290C gene which encodes an ATP-dependent RNA helicase [Source:SGD;Acc:S000004904]							
+YMR294W-A															
+YMR295C															
+YMR304C-A			XIII	878780	879130	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps 3' end of verified ORF SCW10/YMR305C [Source:SGD;Acc:S000004919]							
+YMR306C-A			XIII	886183	886572	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps 3' end of ORF FKS3/YMR306W [Source:SGD;Acc:S000004922]							
+YMR307C-A															
+YMR315W-A															
+YMR316C-A															
+YMR316C-B			XIII	907321	907629	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps 5' end of ORF YMR317W [Source:SGD;Acc:S000004934]							
+YMR317W															
+YMR320W															
+YMR324C			XIII	922202	922444	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; transcription is AZF1 dependent in glycerol-lactate medium and SLT2 dependent in response to the lipid hydroperoxides [Source:SGD;Acc:S000004943]							
+YMR325W															
+YMR326C															
+YNL011C															
+YNL013C			XIV	609133	609510	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF HEF3/YNL014W [Source:SGD;Acc:S000004958]							
+YNL017C															
+YNL018C															
+YNL028W															
+YNL034W															
+YNL042W-B															
+YNL043C															
+YNL050C															
+YNL057W															
+YNL067W-A															
+YNL067W-B															
+YNL089C															
+YNL097C-B															
+YNL097W-A															
+YNL103W															
+YNL103W-A															
+YNL105W			XIV	424155	424583	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene INP52; identified in a screen for mutants with decreased levels of rDNA transcription [Source:SGD;Acc:S000005049]							
+YNL109W			XIV	418964	419509	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF YNL108C [Source:SGD;Acc:S000005053]							
+YNL114C			XIV	412684	413055	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the verified ORF RPC19/YNL113W, an RNA polymerase subunit [Source:SGD;Acc:S000005058]							
+YNL120C															
+YNL140C															
+YNL144C															
+YNL144W-A															
+YNL146C-A															
+YNL150W															
+YNL165W															
+YNL170W															
+YNL171C															
+YNL174W			XIV	308074	308646	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene NOP13/YNL175C [Source:SGD;Acc:S000005118]							
+YNL179C	YNL179C		XIV	300666	301103	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; deletion in cyr1 mutant results in loss of stress resistance [Source:SGD;Acc:S000005123]							
+YNL184C															
+YNL193W															
+YNL198C			XIV	266514	266816	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005142]						GO:0005739	mitochondrion
+YNL203C			XIV	259439	260050	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005147]							
+YNL205C															
+YNL226W															
+YNL228W			XIV	220645	221421	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps ORF YNL227C/JJJ1 [Source:SGD;Acc:S000005172]							
+YNL235C			XIV	209548	209979	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF SIN4/YNL236W, a subunit of the mediator complex [Source:SGD;Acc:S000005179]							
+YNL239W									ENSG00000108578	BLMH	39.1209				
+YNL266W			XIV	144245	144664	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF IST1/YNL265C [Source:SGD;Acc:S000005210]							
+YNL269W															
+YNL276C															
+YNL277W-A															
+YNL285W															
+YNL296W															
+YNL303W															
+YNL319W															
+YNL324W			XIV	31050	31445	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005268]							
+YNL331C															
+YNL337W															
+YNL338W															
+YNR001W-A															
+YNR003W-A															
+YNR005C			XIV	636931	637335	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005288]							
+YNR014W															
+YNR020C									ENSG00000166896	ATP23	28.4553				
+YNR025C			XIV	672702	673061	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; deletion reduces expression of PIS1 gene encoding phosphatidylinositol synthase [Source:SGD;Acc:S000005308]							
+YNR040W															
+YNR042W															
+YNR075C-A															
+YNR076W															
+YNR077C															
+YOL013W-A															
+YOL013W-B	YOL013W-B		XV	300690	300980	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; completely overlaps the long terminal repeat (LTR) of a Ty1 element [Source:SGD;Acc:S000007252]							
+YOL014W															
+YOL015W															
+YOL019W-A															
+YOL024W															
+YOL035C			XV	258803	259105	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005395]							
+YOL036W															
+YOL037C			XV	256666	257019	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized ORF YOL036W [Source:SGD;Acc:S000005397]							
+YOL038C-A															
+YOL046C															
+YOL050C															
+YOL063C															
+YOL079W			XV	181057	181455	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005439]							
+YOL083C-A															
+YOL085C															
+YOL085W-A															
+YOL097W-A															
+YOL099C			XV	132017	132508	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene PKH2/YOL100W; may interact with ribosomes [Source:SGD;Acc:S000005459]							
+YOL106W															
+YOL118C															
+YOL131W															
+YOL134C			XV	70156	70545	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps HRT1, a verified gene that encodes an SCF ubiquitin ligase subunit [Source:SGD;Acc:S000005494]							
+YOL150C															
+YOL155W-A															
+YOL160W															
+YOL164W-A															
+YOL165C															
+YOL166C			XV	1000	1338	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005526]							
+YOL166W-A															
+YOR008W-B															
+YOR011W-A															
+YOR012W															
+YOR013W			XV	356751	357221	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the uncharacterized gene YOR012C; null mutant displays increased levels of spontaneous Rad52 foci [Source:SGD;Acc:S000005539]						GO:0006310	DNA recombination
+YOR024W															
+YOR029W															
+YOR041C															
+YOR050C															
+YOR053W	YOR053W		XV	427817	428158	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene VHS3/YOR054C [Source:SGD;Acc:S000005579]							
+YOR055W															
+YOR072W															
+YOR072W-A															
+YOR072W-B															
+YOR073W-A															
+YOR082C			XV	479296	479637	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene YOR083W [Source:SGD;Acc:S000005608]							
+YOR102W															
+YOR105W															
+YOR108C-A															
+YOR114W															
+YOR121C															
+YOR135C			XV	580159	580500	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene YOR136W; null mutant displays increased levels of spontaneous Rad52 foci [Source:SGD;Acc:S000005661]						GO:0006310	DNA recombination
+YOR139C															
+YOR146W			XV	605873	606178	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; open reading frame overlaps the verified gene PNO1/YOR145C [Source:SGD;Acc:S000005672]							
+YOR161W-A															
+YOR161W-B															
+YOR169C															
+YOR170W															
+YOR186C-A															
+YOR192C-C															
+YOR199W			XV	720181	720510	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005725]							
+YOR200W															
+YOR203W															
+YOR218C			XV	751476	751895	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; open reading frame overlaps the verified gene RFC1/YOR217W [Source:SGD;Acc:S000005744]							
+YOR225W			XV	761392	761721	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000005751]							
+YOR231C-A															
+YOR248W															
+YOR263C															
+YOR277C			XV	841515	841823	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps the verified gene CAF20 [Source:SGD;Acc:S000005803]							
+YOR282W			XV	847000	847320	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps essential, verified gene PLP2/YOR281C [Source:SGD;Acc:S000005808]							
+YOR289W									ENSG00000144233	AMMECR1L	25.1613				
+YOR293C-A															
+YOR300W															
+YOR309C															
+YOR314W															
+YOR314W-A															
+YOR316C-A															
+YOR318C															
+YOR325W															
+YOR329W-A			XV	939348	939557	+	protein_coding	Dubious open reading frame unlikely to encode a functional protein; identified by fungal homology and RT-PCR [Source:SGD;Acc:S000028585]							
+YOR331C			XV	943565	944122	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; open reading frame overlaps the verified gene VMA4/YOR332W [Source:SGD;Acc:S000005858]							
+YOR333C															
+YOR335W-A															
+YOR343C															
+YOR345C			XV	981812	982162	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; overlaps the verified gene REV1; null mutant displays increased resistance to antifungal agents gliotoxin, cycloheximide and H2O2 [Source:SGD;Acc:S000005872]							
+YOR364W															
+YOR366W															
+YOR376W-A															
+YOR379C															
+YOR381W-A															
+YOR392W			XV	1079282	1079725	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; gene expression induced by heat [Source:SGD;Acc:S000005919]							
+YOR394C-A															
+YOR394W															
+YPL025C															
+YPL034W															
+YPL035C															
+YPL038W-A															
+YPL039W															
+YPL044C			XVI	469926	470474	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene NOP4/YPL043W [Source:SGD;Acc:S000005965]							
+YPL062W															
+YPL073C															
+YPL077C															
+YPL080C															
+YPL088W															
+YPL102C															
+YPL114W			XVI	335948	336367	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; largely overlaps ORF YPL113C; diploid deletion in BY4743 strain background exhibits high budding index [Source:SGD;Acc:S000006035]							
+YPL135C-A															
+YPL136W															
+YPL142C															
+YPL152W-A															
+YPL182C			XVI	203306	203689	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene CTI6/YPL181W [Source:SGD;Acc:S000006103]							
+YPL185W			XVI	195253	195648	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene UIP4/YPL186C [Source:SGD;Acc:S000006106]							
+YPL197C															
+YPL222C-A															
+YPL238C			XVI	100474	100863	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps 5' end of the verified essential gene SUI3/YPL237W [Source:SGD;Acc:S000006159]							
+YPL250W-A															
+YPL251W															
+YPL261C															
+YPL272C															
+YPL275W															
+YPL276W															
+YPL278C															
+YPL282C															
+YPR002C-A															
+YPR012W			XVI	584309	584563	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; YPR012W is not an essential gene [Source:SGD;Acc:S000006216]							
+YPR014C															
+YPR016W-A															
+YPR038W			XVI	646836	647195	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps verified gene YPR037C; null mutant displays increased levels of spontaneous Rad52p foci [Source:SGD;Acc:S000006242]						GO:0006310	DNA recombination
+YPR039W			XVI	647012	647347	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified non essential genes ERV2/YPR037C and TIP41/YPR040W [Source:SGD;Acc:S000006243]							
+YPR044C															
+YPR050C			XVI	664953	665366	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; almost completely overlaps verified ORF MAK3/YPR051W [Source:SGD;Acc:S000006254]							
+YPR053C															
+YPR059C															
+YPR074W-A															
+YPR076W															
+YPR077C			XVI	697131	697502	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; expression increased by deletion of NAP1 [Source:SGD;Acc:S000006281]							
+YPR078C															
+YPR087W			XVI	711354	711674	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; not conserved in closely related Saccharomyces species; 85% of ORF overlaps the verified gene SRP54; deletion causes a vacuolar protein sorting defect [Source:SGD;Acc:S000006291]							
+YPR092W															
+YPR096C															
+YPR099C															
+YPR108W-A															
+YPR123C			XVI	786141	786575	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially/completely overlaps the verified ORF CTR [Source:SGD;Acc:S000006327]							
+YPR126C			XVI	789077	789385	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000006330]							
+YPR130C			XVI	793374	793781	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000006334]							
+YPR136C															
+YPR142C			XVI	818130	818693	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified ORF RRP15, which is required for ribosomal RNA processing [Source:SGD;Acc:S000006346]							
+YPR145C-A															
+YPR146C			XVI	825347	825676	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data [Source:SGD;Acc:S000006350]						GO:0005739	mitochondrion
+YPR150W			XVI	830999	831520	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps the verified gene SUE1/YPR151C [Source:SGD;Acc:S000006354]							
+YPR160C-A															
+YPR160W-A															
+YPR169W-A			XVI	883239	883457	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps two other dubious ORFs: YPR170C and YPR170W-B [Source:SGD;Acc:S000028591]						GO:0016787;GO:0004518	hydrolase activity;nuclease activity
+YPR170C			XVI	882983	883318	-	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; partially overlaps ORFs YPR169W-A and YPR170W-B [Source:SGD;Acc:S000006374]							
+YPR170W-A			XVI	883378	883563	+	protein_coding	Dubious open reading frame; unlikely to encode a functional protein, based on available experimental and comparative sequence data; identified by expression profiling and mass spectrometry [Source:SGD;Acc:S000028861]							
+YPR177C															
+YPR195C															
+YPR197C															
+YPR202W															
+YPR203W															
+ZOD1															
