@@ -79,7 +79,7 @@ excluded <- biomart %>%
 	)
 
 write.table(
-	excluded, "genes_to_exclude.tsv",
+	excluded, "./results/genes_to_exclude.tsv",
 	sep="\t", col.names=T, row.names=F, quote=F, na=""
 )
 
@@ -98,6 +98,6 @@ biomart <- biomart %>%
 
 # write to file
 write.table(
-	biomart, "gene_master_list.tsv",
+	biomart, "./results/gene_master_list.tsv",
 	sep="\t", col.names=T, row.names=F, quote=F, na=""
 )

@@ -2,7 +2,7 @@
 
 ## get excluded genes
 
-EXCLUSIONS=($(awk 'NR>1{print $1}' ../biomart/genes_to_exclude.tsv))
+EXCLUSIONS=($(awk 'NR>1{print $1}' ../biomart/results/genes_to_exclude.tsv))
 
 ## turn excluded genes to regexp
 
