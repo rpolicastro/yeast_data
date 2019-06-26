@@ -6,7 +6,8 @@ library("tidyverse")
 ## Generating Gene Master List
 ##############################
 
-## Import biomart results
+## Import and clean biomart results
+## ----------
 
 biomart <- read.delim("./reference_files/biomart_features.tsv", sep="\t", header=T, stringsAsFactors=F) %>% as_tibble
 
@@ -62,6 +63,7 @@ biomart <- biomart %>%
 	))
 
 ## Add human orthologs
+## ----------
 
 human.orthologs <- read.delim("./reference_files/human_orthologs.tsv", sep="\t", header=T, stringsAsFactors=F) %>%
 	as_tibble %>%
@@ -80,7 +82,19 @@ human.orthologs <- read.delim("./reference_files/human_orthologs.tsv", sep="\t",
 
 biomart <- left_join(biomart, human.orthologs, by="YGD_ID")
 
+# reorder columns
+biomart <- biomart %>%
+        dplyr::select(
+                YGD_ID, gene_name, NCBI_ID,
+                chr, start, end, strand,
+                gene_type, gene_description,
+                human_gene_ID, human_gene_name, yeast_gene_similarity,
+                interpro_ID, interpro_description,
+                GO_slim_ID, GO_slim_description
+        )
+
 ## Get list of excluded genes
+## ----------
 
 excluded <- biomart %>%
 	filter(
@@ -95,21 +109,72 @@ write.table(
 	sep="\t", col.names=T, row.names=F, quote=F, na=""
 )
 
-## export master list
-
-# reorder columns
-biomart <- biomart %>%
-	dplyr::select(
-		YGD_ID, gene_name, NCBI_ID,
-		chr, start, end, strand,
-		gene_type, gene_description,
-		human_gene_ID, human_gene_name, yeast_gene_similarity,
-		interpro_ID, interpro_description,
-		GO_slim_ID, GO_slim_description
-	)
+## Export master list
+## ----------
 
 # write to file
 write.table(
 	biomart, "./results/gene_master_list.tsv",
 	sep="\t", col.names=T, row.names=F, quote=F, na=""
 )
+
+## Log
+## ----------
+
+log.file <- "./results/LOG.txt"
+
+## Header
+
+write("
+################################
+## Log file for gene master list
+################################
+", file=log.file, append=F
+)
+
+## Gene info
+
+n.ygd_id <- nrow(biomart)
+n.gene_name <- biomart %>% filter(gene_name != "" & !is.na(gene_name)) %>% nrow
+n.ncbi_id <- biomart %>% filter(NCBI_ID != "" & !is.na(NCBI_ID)) %>% nrow
+
+write(paste(
+"## Gene info
+## ----------
+
+YGD_ID:", n.ygd_id,
+"\nGene_name:", n.gene_name,
+"\nNCBI_ID:", n.ncbi_id
+), file=log.file, append=T
+)
+
+## Gene types
+
+gene.types <- biomart %>% count(gene_type) %>% arrange(desc(n))
+
+write("
+## Gene types
+## ----------
+", file=log.file, append=T
+)
+
+write.table(gene.types, log.file, sep=": ", col.names=F, row.names=F, quote=F, na="", append=T)
+
+dubious.orfs <- biomart %>% filter(grepl(gene_description, pattern="Dubious open reading frame")) %>% nrow
+
+write(paste("
+Dubious ORFs:", dubious.orfs
+), file=log.file, append=T
+)
+
+## Chromosome info
+
+chr.info <- biomart %>% count(chr) %>% arrange(desc(n))
+
+write("
+## Chromosome info
+## ----------
+", file=log.file, append=T
+)
+
+write.table(chr.info, log.file, sep=": ", col.names=F, row.names=F, quote=F, na="", append=T)
