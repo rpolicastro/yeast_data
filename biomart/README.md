@@ -23,6 +23,7 @@ This analysis results in a gene 'master list' that contains useful information a
 
 #### Results
 
+- **LOG.txt**: Basic information on gene number, gene types, and chromosomal compositions.
 - **gene_master_list.tsv**: Final gene master list with columns described above.
 - **genes_to_exclude**: Genes that are recommended to be ignored for poly-A selected RNA-seq analysis. This includes rRNA, tRNA, mitochondrial genes, pseudogenes, and dubious ORFs.
 - **no_biomart_features.tsv**: Genes that were originally excluded in the biomart results, but were reanalyzed and readed later with compatible return categories selected.
