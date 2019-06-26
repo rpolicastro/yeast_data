@@ -26,4 +26,4 @@ Gene types filtered include rRNA, tRNA, Mitochondrial genes, pseudogenes, and du
 - **Saccharomyces_cerevisiae.R64-1-1.96.ncRNA.gtf**: Annotated ncRNA genes.
 - **Saccharomyces_cerevisiae.R64-1-1.96.pseudogenes.gtf**: Annotated pseudogenes.
 - **Saccharomyces_cerevisiae.R64-1-1.96.snoRNA.gtf**: Annotated snoRNA genes.
-- **Saccharomyces_cerevisiae.R64-1-1.96.snRNA.gtf**: ANnotated snRNA genes.
+- **Saccharomyces_cerevisiae.R64-1-1.96.snRNA.gtf**: Annotated snRNA genes.
