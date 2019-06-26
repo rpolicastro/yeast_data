@@ -18,3 +18,14 @@ Downloaded from Ensembl on 06-25-2019
 
 ### Processed
 - **Saccharomyces_cerevisiae.R64-1-1.96.Filtered.gtf**: Genomic annotations with genes from the biomart exclusions file removed.
+	- rRNA
+	- tRNA
+	- Mitochondrial genes
+	- pseudogenes
+	- Dubious ORFs
+- **Saccharomyces_cerevisiae.R64-1-1.96.rRNA.gtf**: Annotated rRNA genes.
+- **Saccharomyces_cerevisiae.R64-1-1.96.tRNA.gtf**: Annotated tRNA genes.
+- **Saccharomyces_cerevisiae.R64-1-1.96.ncRNA.gtf**: Annotated ncRNA genes.
+- **Saccharomyces_cerevisiae.R64-1-1.96.pseudogenes.gtf**: Annotated pseudogenes.
+- **Saccharomyces_cerevisiae.R64-1-1.96.snoRNA.gtf**: Annotated snoRNA genes.
+- **Saccharomyces_cerevisiae.R64-1-1.96.snRNA.gtf**: ANnotated snRNA genes.
