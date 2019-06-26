@@ -1,0 +1,45 @@
+
+################################
+## Log file for gene master list
+################################
+
+## Gene info
+## ----------
+
+YGD_ID: 7036 
+Gene_name: 2259 
+NCBI_ID: 5804
+
+## Gene types
+## ----------
+
+protein_coding: 6600
+tRNA: 299
+snoRNA: 77
+rRNA: 24
+ncRNA: 18
+pseudogene: 12
+snRNA: 6
+
+Dubious ORFs: 654
+
+## Chromosome info
+## ----------
+
+IV: 868
+XII: 631
+VII: 629
+XV: 628
+XIII: 541
+XVI: 536
+II: 472
+XIV: 455
+X: 428
+XI: 369
+V: 352
+VIII: 336
+IX: 258
+III: 200
+VI: 154
+I: 124
+Mito: 55
