@@ -20,7 +20,7 @@ grep -vE "$REGEXP" ../Saccharomyces_cerevisiae.R64-1-1.96.gtf > ../filtered_gtfs
 ## make GTFs based on annotation type
 ## ----------
 
-BIOTYPES=(protein_coding ncRNA psuedogene rRNA snRNA snoRNA tRNA)
+BIOTYPES=(protein_coding ncRNA pseudogene rRNA snRNA snoRNA tRNA)
 
 for BIOTYPE in ${BIOTYPES[@]};
 do
