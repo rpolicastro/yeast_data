@@ -21,6 +21,8 @@ Downloaded from Ensembl on 06-25-2019
 #### Processed
 - **Saccharomyces_cerevisiae.R64-1-1.96.Filtered.gtf**: Genomic annotations with genes from the biomart exclusions file removed.
 Gene types filtered include rRNA, tRNA, Mitochondrial genes, pseudogenes, and dubious ORFs.
+- **Saccharomyces_cerevisiae.R64-1-1.96.Mitochondrial.gtf**: Annotated genes on the mitochondrial chromosome.
+- **Saccharomyces_cerevisiae.R64-1-1.96.Dubious_ORFs.gtf**: Genes that are likely dubious open reading frames.
 - **Saccharomyces_cerevisiae.R64-1-1.96.protein_coding.gtf**: Annotated protein coding genes.
 - **Saccharomyces_cerevisiae.R64-1-1.96.rRNA.gtf**: Annotated rRNA genes.
 - **Saccharomyces_cerevisiae.R64-1-1.96.tRNA.gtf**: Annotated tRNA genes.
